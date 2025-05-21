@@ -1,0 +1,121 @@
+Número,Área,Complexidade,Tarefa,Condição
+81,Química,Alta,"Em uma reação química, a quantidade de átomos de cada elemento se conserva antes e depois da reação",1
+82,Química,Alta,A eletronegatividade é a tendência de um átomo atrair elétrons em uma ligação química,1
+83,Química,Alta,Uma ligação iônica ocorre geralmente entre um metal e um ametal,1
+84,Química,Alta,"Compostos covalentes podem existir em estados sólido, líquido ou gasoso em condições ambientes",1
+85,Química,Alta,O aumento da temperatura geralmente acelera a velocidade de uma reação química,1
+86,Química,Alta,Um catalisador reduz a energia de ativação de uma reação sem ser consumido no processo,1
+87,Química,Alta,A tabela periódica organiza os elementos em ordem crescente de número atômico,1
+88,Química,Alta,Um ácido de Arrhenius libera íons H mais em solução aquosa,1
+89,Química,Alta,A massa molar de uma substância corresponde à massa de um mol de suas partículas,1
+90,Química,Alta,A configuração eletrônica dos átomos determina suas propriedades químicas,1
+91,Química,Alta,Um átomo é eletricamente neutro quando o número de prótons é igual ao número de elétrons,1
+92,Química,Alta,A ligação metálica explica a maleabilidade e a ductilidade dos metais,1
+93,Química,Alta,"Em uma solução aquosa, sais solúveis se dissociam completamente em seus íons",1
+94,Química,Alta,A água é uma substância polar devido à diferença de eletronegatividade entre hidrogênio e oxigênio,1
+95,Química,Alta,A solubilidade de um gás em um líquido diminui com o aumento da temperatura,1
+96,Química,Alta,Reações de combustão sempre envolvem o reagente oxigênio (O2),1
+97,Química,Alta,A oxidação é o processo em que ocorre a perda de elétrons,1
+98,Química,Alta,A destilação é um método físico de separação baseado no ponto de ebulição das substâncias,1
+99,Química,Alta,"Substâncias iônicas em estado sólido não conduzem eletricidade, mas conduzem quando dissolvidas em água",1
+100,Química,Alta,Compostos orgânicos são formados principalmente por átomos de carbono e hidrogênio,1
+101,Química,Alta,O número de prótons em um átomo pode variar sem alterar a identidade do elemento,0
+102,Química,Alta,A ligação entre dois átomos de oxigênio (O2) é do tipo iônica,0
+103,Química,Alta,Compostos orgânicos são formados exclusivamente por carbono e metais,0
+104,Química,Alta,"Durante uma reação química, a massa total dos produtos sempre é maior do que a dos reagentes",0
+105,Química,Alta,Ácidos de Arrhenius liberam íons OH menos em solução aquosa,0
+106,Química,Alta,Um catalisador participa da reação química e é consumido no final,0
+107,Química,Alta,O cloreto de sódio (NaCl) é um exemplo de composto molecular covalente,0
+108,Química,Alta,Um aumento na temperatura sempre diminui a velocidade de uma reação química,0
+109,Química,Alta,Todos os gases possuem densidade maior que líquidos,0
+110,Química,Alta,Compostos iônicos conduzem eletricidade no estado sólido,0
+111,Química,Alta,A energia de ativação é maior em reações que utilizam catalisadores,0
+112,Química,Alta,A solubilidade dos sólidos em líquidos diminui com o aumento da temperatura,0
+113,Química,Alta,O pH neutro de uma solução aquosa é igual a 0,0
+114,Química,Alta,O carbono é incapaz de formar quatro ligações covalentes simultaneamente,0
+115,Química,Alta,A destilação fracionada é usada para separar misturas homogêneas de sólidos insolúveis,0
+116,Química,Alta,A água pura é considerada uma substância simples,0
+117,Química,Alta,A radioatividade é um fenômeno químico que altera a composição molecular,0
+118,Química,Alta,Todas as ligações metálicas ocorrem apenas entre átomos de metais diferentes,0
+119,Química,Alta,O átomo de hélio (He) tem três camadas eletrônicas completas,0
+120,Química,Alta,Toda mudança de estado físico envolve uma reação química,0
+121,Biologia,Alta,As enzimas são proteínas que aceleram reações químicas específicas nos organismos vivos,1
+122,Biologia,Alta,A membrana plasmática é composta principalmente por uma bicamada lipídica e proteínas,1
+123,Biologia,Alta,As mitocôndrias são responsáveis pela produção da maior parte do ATP nas células eucarióticas,1
+124,Biologia,Alta,A fotossíntese ocorre principalmente nos cloroplastos das células vegetais,1
+125,Biologia,Alta,"A meiose é o processo celular que reduz pela metade o número de cromossomos, formando gametas",1
+126,Biologia,Alta,O DNA é a molécula que carrega a informação genética dos seres vivos,1
+127,Biologia,Alta,A biodiversidade é fundamental para a estabilidade dos ecossistemas,1
+128,Biologia,Alta,Hormônios são substâncias químicas que regulam processos fisiológicos em organismos multicelulares,1
+129,Biologia,Alta,A seleção natural é um dos principais mecanismos da evolução biológica,1
+130,Biologia,Alta,A água é o principal componente químico das células vivas,1
+131,Biologia,Alta,A transferência de energia nos ecossistemas ocorre principalmente através da cadeia alimentar,1
+132,Biologia,Alta,"A parede celular das plantas é composta, em grande parte, de celulose",1
+133,Biologia,Alta,Os anticorpos são proteínas produzidas pelo sistema imunológico para neutralizar patógenos,1
+134,Biologia,Alta,O código genético é universal para quase todos os seres vivos conhecidos,1
+135,Biologia,Alta,A difusão facilita a movimentação de substâncias do meio mais concentrado para o menos concentrado,1
+136,Biologia,Alta,"Fungos, como os cogumelos, realizam digestão extracelular antes de absorver nutrientes",1
+137,Biologia,Alta,O sistema nervoso coordena respostas rápidas aos estímulos externos nos animais,1
+138,Biologia,Alta,A variabilidade genética é essencial para a adaptação das populações ao ambiente,1
+139,Biologia,Alta,Os vírus dependem da maquinaria celular de organismos hospedeiros para se replicarem,1
+140,Biologia,Alta,Os ribossomos são responsáveis pela síntese de proteínas dentro das células,1
+141,Biologia,Alta,"As plantas obtêm sua energia apenas absorvendo nutrientes do solo, sem necessidade de luz",0
+142,Biologia,Alta,A respiração celular ocorre exclusivamente dentro do núcleo da célula,0
+143,Biologia,Alta,Todos os seres vivos possuem sistema nervoso para se comunicar internamente,0
+144,Biologia,Alta,Os protozoários são seres pluricelulares encontrados apenas em ambientes marinhos,0
+145,Biologia,Alta,A clorofila é encontrada no núcleo das células vegetais,0
+146,Biologia,Alta,As artérias sempre transportam sangue pobre em oxigênio,0
+147,Biologia,Alta,A água é uma substância insignificante para a manutenção da vida,0
+148,Biologia,Alta,"Durante a fotossíntese, as plantas consomem oxigênio e liberam gás carbônico",0
+149,Biologia,Alta,"O DNA é encontrado apenas nas células animais, estando ausente nas células vegetais",0
+150,Biologia,Alta,A fecundação humana ocorre exclusivamente fora do corpo da mulher,0
+151,Biologia,Alta,Os fungos produzem seu próprio alimento através da fotossíntese,0
+152,Biologia,Alta,Os anticorpos atacam células saudáveis do próprio corpo como sua função principal,0
+153,Biologia,Alta,As células-tronco não possuem capacidade de se diferenciar em outros tipos celulares,0
+154,Biologia,Alta,A mitose gera células com metade do número de cromossomos da célula-mãe,0
+155,Biologia,Alta,O sangue venoso no corpo humano é sempre azul,0
+156,Biologia,Alta,As algas pertencem obrigatoriamente ao reino animal,0
+157,Biologia,Alta,"O sistema endócrino responde aos estímulos do ambiente de forma imediata e impulsiva, como o sistema nervoso",0
+158,Biologia,Alta,A biodiversidade diminui naturalmente a estabilidade de um ecossistema,0
+159,Biologia,Alta,Os vírus são capazes de realizar todas as funções vitais de forma independente,0
+160,Biologia,Alta,Todos os mamíferos se reproduzem por meio da postura de ovos,0
+161,Física,Alta,O impulso é o resultado da força agindo durante um tempo,1
+162,Física,Alta,A energia de movimento (cinética) de um corpo depende da sua massa e velocidade,1
+163,Física,Alta,A luz no vácuo tem uma velocidade constante,1
+164,Física,Alta,A energia interna de um corpo pode mudar quando ele recebe calor ou sofre trabalho,1
+165,Física,Alta,A corrente elétrica acontece quando cargas elétricas se movem ordenadamente,1
+166,Física,Alta,A força de ação e a força de reação sempre agem em corpos diferentes,1
+167,Física,Alta,O campo elétrico de uma carga fica mais fraco à medida que a distância aumenta,1
+168,Física,Alta,A luz muda de velocidade ao passar de um meio para outro,1
+169,Física,Alta,"A gravidade sempre puxa os objetos, nunca empurra",1
+170,Física,Alta,"Se a força for perpendicular ao deslocamento, o trabalho feito será zero",1
+171,Física,Alta,"Em um circuito em série, a corrente que passa é igual em todos os pontos",1
+172,Física,Alta,"Quanto maior a profundidade, maior é a pressão de um líquido",1
+173,Física,Alta,O som é um tipo de onda que precisa de um meio para se propagar,1
+174,Física,Alta,A potência elétrica é encontrada multiplicando a tensão pela corrente,1
+175,Física,Alta,"Se não houver forças externas, a quantidade de movimento de um sistema se mantém",1
+176,Física,Alta,O atrito que impede o começo do movimento é maior que o atrito durante o movimento,1
+177,Física,Alta,Um espelho côncavo pode formar uma imagem real e invertida,1
+178,Física,Alta,"Para manter um objeto em movimento circular, é necessária uma força para o centro",1
+179,Física,Alta,A capacidade de um capacitor depende do material que fica entre as placas,1
+180,Física,Alta,"No vácuo, um objeto em queda livre acelera sempre na mesma velocidade",1
+181,Física,Alta,A força gravitacional entre dois corpos não depende da massa deles,0
+182,Física,Alta,Um objeto precisa de uma força constante para continuar se movendo sem atrito,0
+183,Física,Alta,A eletricidade só pode ser gerada por baterias,0
+184,Física,Alta,A pressão em um líquido diminui conforme a profundidade aumenta,0
+185,Física,Alta,A luz viaja mais rápido na água do que no vácuo,0
+186,Física,Alta,A corrente elétrica é formada apenas por prótons em movimento,0
+187,Física,Alta,Um espelho plano sempre inverte a imagem de cima para baixo,0
+188,Física,Alta,"Sem atmosfera, os sons se propagam normalmente na Lua",0
+189,Física,Alta,"Um ímã atrai qualquer tipo de material, sem exceção",0
+190,Física,Alta,A temperatura de um objeto depende apenas da sua cor,0
+191,Física,Alta,Um objeto em queda livre sempre cai mais devagar se for maior,0
+192,Física,Alta,A resistência elétrica de um fio diminui quando sua temperatura aumenta,0
+193,Física,Alta,A força de atrito aumenta quando a superfície fica mais lisa,0
+194,Física,Alta,A energia potencial gravitacional não depende da altura,0
+195,Física,Alta,O vácuo é o melhor meio para transmitir ondas sonoras,0
+196,Física,Alta,"A aceleração de um corpo é sempre constante, independente da força aplicada",0
+197,Física,Alta,A energia mecânica de um sistema isolado diminui com o tempo,0
+198,Física,Alta,A corrente elétrica medida em série é diferente em cada resistor,0
+199,Física,Alta,Um campo magnético pode ser gerado apenas por objetos metálicos imóveis,0
+200,Física,Alta,Uma lente divergente aproxima os raios de luz que passam por ela,0
