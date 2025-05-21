@@ -1,5 +1,3 @@
-
-import os
 import random
 import wave
 from pathlib import Path
@@ -15,17 +13,10 @@ def get_wav_duration(file_path: str) -> float:
 
 def load_science_questions(base_dir: str = "data/science_questions"):
     """
-    Walks:
-      data/science_questions/
-        control/{false,true}/
-        high_complexity/{biology,chemistry,physics}/{false,true}/
-        low_complexity/{biology,chemistry,physics}/{false,true}/
-    Returns:
-      control_qs: List[Dict]
-      high_qs: Dict[str, List[Dict]]
-      low_qs:  Dict[str, List[Dict]]
-
-    Each question dict has: path, answer (0/1), duration.
+    Walks the folder hierarchy and returns three pools with subject tags:
+      - control_qs: List of {path, answer, duration, subject='control'}
+      - high_qs: dict of subject->list of {path, answer, duration, subject}
+      - low_qs: same as high_qs
     """
     base = Path(base_dir)
     control_qs = []
@@ -39,11 +30,12 @@ def load_science_questions(base_dir: str = "data/science_questions"):
             control_qs.append({
                 "path": str(wav),
                 "answer": 1 if ans == "true" else 0,
-                "duration": get_wav_duration(str(wav))
+                "duration": get_wav_duration(str(wav)),
+                "subject": "control"
             })
     random.shuffle(control_qs)
 
-    # High and low complexity
+    # High and low complexity questions
     for complexity, pool in (("high_complexity", high_qs), ("low_complexity", low_qs)):
         for subj in ("biology", "chemistry", "physics"):
             for ans in ("false", "true"):
@@ -52,7 +44,8 @@ def load_science_questions(base_dir: str = "data/science_questions"):
                     pool[subj].append({
                         "path": str(wav),
                         "answer": 1 if ans == "true" else 0,
-                        "duration": get_wav_duration(str(wav))
+                        "duration": get_wav_duration(str(wav)),
+                        "subject": subj
                     })
             random.shuffle(pool[subj])
 
@@ -62,7 +55,7 @@ def load_science_questions(base_dir: str = "data/science_questions"):
 def generate_control_block(control_qs: List[Dict], min_duration: float = 360.0) -> List[Dict]:
     """
     Return shuffled control questions until total duration >= min_duration.
-    Wraps around if list is exhausted.
+    Wrap around if necessary.
     """
     seq = []
     total = 0.0
@@ -82,9 +75,8 @@ def generate_complexity_block(
     min_duration: float = 360.0
 ) -> List[Dict]:
     """
-    pool: {'biology': [...], 'chemistry': [...], 'physics': [...]}
-    Round-robin biology→chemistry→physics until >= min_duration,
-    then append extra to equalize counts.
+    pool: dict of subject->[question dicts]
+    Round-robin by subject until total audio >= min_duration, then equalize question counts.
     """
     subjects = ['biology', 'chemistry', 'physics']
     pools = {subj: pool[subj].copy() for subj in subjects}
@@ -96,24 +88,22 @@ def generate_complexity_block(
     idx = {subj: 0 for subj in subjects}
     counts = Counter()
 
-    # 1) Round-robin fill
+    # Fill until min_duration
     while total < min_duration:
         for subj in subjects:
-            qlist = pools[subj]
-            q = qlist[idx[subj] % len(qlist)]
+            q = pools[subj][idx[subj] % len(pools[subj])]
             idx[subj] += 1
             seq.append(q)
-            total += q['duration']
             counts[subj] += 1
+            total += q['duration']
             if total >= min_duration:
                 break
 
-    # 2) Balance counts
+    # Ensure equal count per subject
     max_count = max(counts.values())
     for subj in subjects:
         while counts[subj] < max_count:
-            qlist = pools[subj]
-            q = qlist[idx[subj] % len(qlist)]
+            q = pools[subj][idx[subj] % len(pools[subj])]
             idx[subj] += 1
             seq.append(q)
             counts[subj] += 1
@@ -128,10 +118,9 @@ def prepare_all_blocks(
     min_duration: float = 360.0
 ) -> List[Dict]:
     """
-    Returns 4 blocks in one of two sequences:
-      1) High → Control → Low → Control
-      2) Low  → Control → High → Control
-    Each block: {'type': str, 'questions': List[Dict]}
+    Returns 4 blocks in one of two fixed sequences:
+      High → Control → Low → Control
+      or Low → Control → High → Control
     """
     configs = [
         ['high_complexity','control','low_complexity','control'],

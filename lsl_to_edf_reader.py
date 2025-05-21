@@ -1,4 +1,3 @@
-
 import threading
 import numpy as np
 from pylsl import StreamInlet, resolve_byprop
@@ -15,7 +14,10 @@ class LSLToEdfReader(threading.Thread):
         self.times       = []
 
     def run(self):
-        streams = resolve_byprob('name', self.stream_name)
+        streams = resolve_byprop('name', self.stream_name)
+        print("\n" + "*"*60)
+        print(f"*** LSLToEdfReader: Connected to '{self.stream_name}' ({len(streams)} streams). Writing to {self.out_edf}.")
+        print("*"*60 + "\n")
         inlet   = StreamInlet(streams[0])
         while self._running.is_set():
             sample, ts = inlet.pull_sample(timeout=1.0)

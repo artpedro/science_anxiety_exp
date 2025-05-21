@@ -1,4 +1,3 @@
-
 import os
 from datetime import datetime
 from config import Config
@@ -19,6 +18,11 @@ def collector_loop(pipe):
 
             block_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             block_tag       = os.path.basename(active_folder)
+
+            print("\n" + "="*60)
+            print(f"*** DATA COLLECTOR: Starting block {block_tag} at {block_timestamp}")
+            print(f"*** Streams: {Config.STREAM_NAMES}")
+            print("="*60 + "\n")
 
             readers = []
             for stream_name in Config.STREAM_NAMES:
