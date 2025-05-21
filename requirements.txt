@@ -91,7 +91,6 @@ pyEDFlib==0.1.40
 pyglet==1.5.27
 pyglui==1.31.1
 Pygments==2.19.1
-PyGObject==3.50.0
 pylsl==1.17.6
 PyOpenGL==3.1.9
 pyparallel==0.2.2
@@ -135,7 +134,7 @@ ujson==5.10.0
 urllib3==2.3.0
 virtualenv==20.30.0
 websockets==14.2
-wxPython @ https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-24.04/wxpython-4.2.3-cp310-cp310-linux_x86_64.whl
+wxPython
 xarray==2025.1.2
 xmlschema==3.4.3
 zeromq-pyre==0.3.4
