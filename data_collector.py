@@ -32,6 +32,7 @@ def collector_loop(pipe):
 
                 reader = LSLToEdfReader(stream_name, out_path)
                 reader.start()
+                print(stream_name + " started")
                 readers.append(reader)
 
         elif cmd == "stop":
