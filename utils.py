@@ -44,9 +44,14 @@ def load_science_questions(base_dir: str = "data/science_questions"):
       - low_qs: same as high_qs
     """
     base = Path(base_dir)
+    
     control_qs = []
-    high_qs = {subj: [] for subj in ("biology", "chemistry", "physics")}
-    low_qs  = {subj: [] for subj in ("biology", "chemistry", "physics")}
+    if base_dir == "data/science_questions":
+        high_qs = {subj: [] for subj in ("biology", "chemistry", "physics")}
+        low_qs  = {subj: [] for subj in ("biology", "chemistry", "physics")}
+    else:
+        high_qs = {'math':[]}
+        low_qs = {'math':[]}
 
     # Control questions
     for ans in ("false", "true"):
@@ -58,22 +63,35 @@ def load_science_questions(base_dir: str = "data/science_questions"):
                 "duration": get_wav_duration(str(wav)),
                 "subject": "control"
             })
+    
     random.shuffle(control_qs)
 
     # High and low complexity questions
-    for complexity, pool in (("high_complexity", high_qs), ("low_complexity", low_qs)):
-        for subj in ("biology", "chemistry", "physics"):
-            for ans in ("false", "true"):
-                folder = base / complexity / subj / ans
+    if base_dir == "data/science_questions":
+        for complexity, pool in (("high_complexity", high_qs), ("low_complexity", low_qs)):
+            for subj in ("biology", "chemistry", "physics"):
+                for ans in ("false", "true"):
+                    folder = base / complexity / subj / ans
+                    for wav in folder.glob("*.wav"):
+                        pool[subj].append({
+                            "path": str(wav),
+                            "answer": 1 if ans == "true" else 0,
+                            "duration": get_wav_duration(str(wav)),
+                            "subject": subj
+                        })
+                random.shuffle(pool[subj])
+    else:
+        for complexity in (('high_complexity',high_qs),('low_complexity',low_qs)):
+            for ans in ('false','true'):
+                folder = base / complexity / ans
                 for wav in folder.glob("*.wav"):
-                    pool[subj].append({
+                    pool['math'].append({
                         "path": str(wav),
-                        "answer": 1 if ans == "true" else 0,
-                        "duration": get_wav_duration(str(wav)),
-                        "subject": subj
+                            "answer": 1 if ans == "true" else 0,
+                            "duration": get_wav_duration(str(wav)),
+                            "subject": subj
                     })
-            random.shuffle(pool[subj])
-
+                    
     return control_qs, high_qs, low_qs
 
 

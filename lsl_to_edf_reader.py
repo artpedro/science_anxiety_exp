@@ -5,7 +5,7 @@ import time
 import numpy as np
 import os
 import csv
-from pylsl import StreamInlet, resolve_byprop
+from pylsl import StreamInlet, resolve_byprop, resolve_streams
 import pyedflib
 
 class LSLToEdfReader(threading.Thread):
@@ -27,12 +27,14 @@ class LSLToEdfReader(threading.Thread):
             # If we don't have a valid inlet yet, try to resolve it
             if inlet is None:
                 try:
+                    print(resolve_streams()
                     streams = resolve_byprop(
                             prop='name',
                             value=self.stream_name,
                             minimum=1,
                             timeout=2.0
                         )
+                    print(streams)
                     inlet = StreamInlet(streams[0])
                     print(f"\n{'*'*10} ★ Connected to LSL stream: {self.stream_name} ★ {'*'*10}\n")
                 except Exception as e:

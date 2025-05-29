@@ -21,6 +21,7 @@ def generate_audio(text, tts_model, speaker='test', speaker_wav=None, language='
     print(f"Saving to: {output_path}")
     # Model is loaded externally; no re-initialization here
     # Disable gradient tracking and reduce memory footprint
+    
     with torch.no_grad():
         if speaker_wav:
             tts_model.tts_to_file(
@@ -48,7 +49,7 @@ def generate_audio(text, tts_model, speaker='test', speaker_wav=None, language='
 def aggregate_question_bank(
     data_dir='data/question_bank',
     output_csv='data/question_bank/concatenated_questions.csv'
-):
+    ):
     """
     1) Load all CSVs from data_dir
     2) Concatenate into one DataFrame
@@ -66,7 +67,8 @@ def aggregate_question_bank(
 
     # assign new UID as 1,2,3,...
     question_bank.reset_index(drop=True, inplace=True)
-    question_bank['UID'] = question_bank.index + 1
+    question_bank['UID'] = question_bank.index + 1440 + 1
+    print(f"Assigned new UID starting from 1441: {question_bank['UID'].min()} to {question_bank['UID'].max()}")
 
     # write out the full concatenated CSV
     os.makedirs(os.path.dirname(output_csv), exist_ok=True)
@@ -85,7 +87,7 @@ def create_audio_pipeline(data_root='data'):
     subject_map = {
         'Química': 'chemistry', 'Física': 'physics',
         'Biologia': 'biology', 'Controle': 'control',
-        'MatCon': 'matcon'
+        'MatCon': 'matcon', 'Matemática': 'math'
     }
     cond_map    = {1: 'true', 0: 'false'}
 
@@ -94,6 +96,7 @@ def create_audio_pipeline(data_root='data'):
         if count % 10 == 0:
             usage = shutil.disk_usage(data_root)
             free_gb = usage.free / (1024**3)
+            print(free_gb," GB free on disk")
             if free_gb <= 1:
                 print(f"[{count}/{total}] Low disk space: only {free_gb:.2f} GB free. Stopping pipeline.")
                 break
@@ -103,13 +106,18 @@ def create_audio_pipeline(data_root='data'):
         cond = cond_map.get(row['Condição'], str(row['Condição']).lower())
 
         # Routing logic
-        if subj == 'control':
+        if subj == 'math':
+            comp    = comp_map.get(row['Complexidade'], row['Complexidade'].lower())
+            out_dir = os.path.join(data_root,'math_questions',comp,cond)
+            fname = f"{uid:03d}_{subj}_{cond}.wav"
+            
+        elif subj == 'matcon':
+            out_dir = os.path.join(data_root, 'math_questions', 'control', cond)
+            fname   = f"{uid:03d}_control_{cond}.wav"
+        
+        elif subj == 'control':
             out_dir = os.path.join(data_root, 'science_questions', 'control', cond)
             fname   = f"{uid:03d}_{subj}_{cond}.wav"
-
-        elif subj == 'matcon':
-            out_dir = os.path.join(data_root, 'science_questions', 'matcon', cond)
-            fname   = f"{uid:03d}_matcon_{cond}.wav"
 
         else:
             comp    = comp_map.get(row['Complexidade'], row['Complexidade'].lower())
