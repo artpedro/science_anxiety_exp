@@ -6,6 +6,7 @@ import random
 import torch
 import gc
 from TTS.api import TTS
+import shutil
 
 def generate_audio(text, tts_model, speaker='test', speaker_wav=None, language='pt', output_path=None, seed=12):
     np.random.seed(seed)
@@ -44,54 +45,94 @@ def generate_audio(text, tts_model, speaker='test', speaker_wav=None, language='
     return 1
 
 
-def aggregate_question_bank(data_dir='data/question_bank'):
-    """Load all CSVs from data_dir into a DataFrame and add a UID column."""
+def aggregate_question_bank(
+    data_dir='data/question_bank',
+    output_csv='data/question_bank/concatenated_questions.csv'
+):
+    """
+    1) Load all CSVs from data_dir
+    2) Concatenate into one DataFrame
+    3) Assign a new sequential UID (1,2,3,...)
+    4) Write the full DataFrame to output_csv
+    """
+    # find all CSVs
     csv_files = glob.glob(os.path.join(data_dir, '*.csv'))
     print(f"Found {len(csv_files)} CSV files in '{data_dir}'")
+
+    # read and concat
     df_list = [pd.read_csv(f) for f in csv_files]
     question_bank = pd.concat(df_list, ignore_index=True)
-    question_bank['UID'] = question_bank['Número']
-    print(f"Aggregated {len(question_bank)} questions into DataFrame")
+    print(f"Aggregated {len(question_bank)} rows into a single DataFrame")
+
+    # assign new UID as 1,2,3,...
+    question_bank.reset_index(drop=True, inplace=True)
+    question_bank['UID'] = question_bank.index + 1
+
+    # write out the full concatenated CSV
+    os.makedirs(os.path.dirname(output_csv), exist_ok=True)
+    question_bank.to_csv(output_csv, index=False)
+    print(f"Wrote concatenated CSV with new UID to: {output_csv}")
+
     return question_bank
 
 def create_audio_pipeline(data_root='data'):
-    """Generate audio files for each question in the aggregated question bank."""
-    # Aggregate CSVs into DataFrame
+    """Generate audio files for each question, but stop if free disk ≤1 GB every 10 items."""
     qb = aggregate_question_bank(data_dir=os.path.join(data_root, 'question_bank'))
-    # Load TTS model once without GPU to save memory
     tts_model = TTS("tts_models/multilingual/multi-dataset/xtts_v2", gpu=False)
     total = len(qb)
-    print("Starting audio pipeline...")
-    print(f"Total questions to process: {total}")
-    # Mapping Portuguese terms to directory names
-    comp_map = {'Baixa': 'low_complexity', 'Alta': 'high_complexity'}
-    subject_map = {'Química': 'chemistry', 'Física': 'physics', 'Biologia': 'biology', 'Controle': 'control'}
-    cond_map = {1: 'true', 0: 'false'}
+
+    comp_map    = {'Baixa': 'low_complexity', 'Alta': 'high_complexity'}
+    subject_map = {
+        'Química': 'chemistry', 'Física': 'physics',
+        'Biologia': 'biology', 'Controle': 'control',
+        'MatCon': 'matcon'
+    }
+    cond_map    = {1: 'true', 0: 'false'}
 
     for count, (_, row) in enumerate(qb.iterrows(), start=1):
-        uid = row['UID']
+        # Every 10 questions, check free disk space
+        if count % 10 == 0:
+            usage = shutil.disk_usage(data_root)
+            free_gb = usage.free / (1024**3)
+            if free_gb <= 1:
+                print(f"[{count}/{total}] Low disk space: only {free_gb:.2f} GB free. Stopping pipeline.")
+                break
 
-        print(f"[{count}/{total}] Processing UID {uid}")
+        uid  = row['UID']
         subj = subject_map.get(row['Área'], row['Área'].lower())
         cond = cond_map.get(row['Condição'], str(row['Condição']).lower())
 
-        # Determine output path and filename
+        # Routing logic
         if subj == 'control':
             out_dir = os.path.join(data_root, 'science_questions', 'control', cond)
-            fname = f"{uid:03d}_{subj}_{cond}.wav"
+            fname   = f"{uid:03d}_{subj}_{cond}.wav"
+
+        elif subj == 'matcon':
+            out_dir = os.path.join(data_root, 'science_questions', 'matcon', cond)
+            fname   = f"{uid:03d}_matcon_{cond}.wav"
+
         else:
-            comp = comp_map.get(row['Complexidade'], row['Complexidade'].lower())
+            comp    = comp_map.get(row['Complexidade'], row['Complexidade'].lower())
             out_dir = os.path.join(data_root, 'science_questions', comp, subj, cond)
-            fname = f"{uid:03d}_{comp}_{subj}_{cond}.wav"
+            fname   = f"{uid:03d}_{comp}_{subj}_{cond}.wav"
+
         os.makedirs(out_dir, exist_ok=True)
         output_path = os.path.join(out_dir, fname)
-        print(f"Generating audio -> {output_path}")
-        # Skip generation if file already exists
+
         if os.path.exists(output_path):
-            print(f"Skipping existing audio: {output_path}")
+            print(f"[{count}/{total}] Skipping existing: {output_path}")
             continue
-        generate_audio(text=row['Tarefa'], tts_model=tts_model, speaker='Damjan Chapman', language='pt', output_path=output_path)
-    print("Audio pipeline completed.")
+
+        print(f"[{count}/{total}] Generating → {output_path}")
+        generate_audio(
+            text=row['Tarefa'],
+            tts_model=tts_model,
+            speaker='Damjan Chapman',
+            language='pt',
+            output_path=output_path
+        )
+
+    print("Audio pipeline completed (or stopped due to low disk).")
 
 # Example usage:
 if __name__ == '__main__':

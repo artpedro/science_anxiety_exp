@@ -3,6 +3,31 @@ import wave
 from pathlib import Path
 from typing import List, Dict
 from collections import Counter
+import time
+from pylsl import resolve_stream
+
+def wait_for_streams(stream_names, timeout=2.0, retry_interval=5.0):
+    """
+    Block until all LSL streams in `stream_names` are available.
+    Tries to resolve each with `timeout` seconds; if any are missing,
+    waits `retry_interval` seconds and retries.
+    """
+    missing = set(stream_names)
+    while missing:
+        print(f"\n>>> Checking for LSL streams: {missing}")
+        for name in list(missing):
+            try:
+                streams = resolve_stream('name', name, timeout=timeout)
+                if streams:
+                    print(f"  ✅ Stream '{name}' is available.")
+                    missing.remove(name)
+            except Exception:
+                print(f"  ⚠️  Could not resolve '{name}' (will retry).")
+        if missing:
+            print(f">>> Missing: {missing}. Retrying in {retry_interval}s …\n")
+            time.sleep(retry_interval)
+
+    print("\n>>> All required LSL streams are now available! Proceeding …\n")
 
 
 def get_wav_duration(file_path: str) -> float:

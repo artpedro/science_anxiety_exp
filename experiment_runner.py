@@ -6,14 +6,17 @@ if __name__ == "__main__":
     # Collect subject ID in main process
     subject_id = input("Enter patient ID: ").strip()
 
+
+    # 2) Create the control Pipe
     parent_conn, child_conn = Pipe()
 
+    # 3) Spawn only the data collector
     p_collector = Process(target=collector_loop, args=(child_conn,))
-    p_blocks    = Process(target=run_blocks,      args=(parent_conn, subject_id))
-
     p_collector.start()
-    p_blocks.start()
 
-    p_blocks.join()
+    # 4) Run the PsychoPy stimulus + pipe.send() logic in MAIN
+    run_blocks(parent_conn, subject_id)
+
+    # 5) When that returns, shut down collector
     parent_conn.send({"cmd": "shutdown"})
     p_collector.join()

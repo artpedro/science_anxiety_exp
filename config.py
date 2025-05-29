@@ -37,3 +37,7 @@ class Config:
         "pupil_capture_pupillometry_only",
         "ExpMarker",
     ]
+     # ── New flags for stream checking ──────────────────────────
+    WAIT_FOR_STREAMS      = False       # only start when all streams present
+    STREAM_CHECK_TIMEOUT  = 2.0        # secs to wait when resolving each stream
+    STREAM_CHECK_INTERVAL = 5.0        # secs to pause before retrying
