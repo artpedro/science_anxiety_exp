@@ -1,0 +1,121 @@
+Número por área,Eixo (SAEB),Área,Complexidade,Tarefa,Condição
+1,Matéria e energia,Química,Alta,"Em equações químicas balanceadas, o total de átomos de cada elemento antes e depois da reação é o mesmo",1
+2,Matéria e energia,Química,Alta,O átomo mais eletronegativo em uma ligação química atrai os elétrons compartilhados com maior força para si,1
+3,Matéria e energia,Química,Alta,"Ligações iônicas formam-se por transferência de elétrons entre metais e ametais, criando íons que se atraem eletrostaticamente",1
+4,Matéria e energia,Química,Alta,O estado físico de substâncias moleculares depende diretamente da intensidade das interações entre suas moléculas,1
+5,Matéria e energia,Química,Alta,"Aumentar a temperatura acelera reações químicas, elevando a energia e a frequência das colisões entre as partículas",1
+6,Matéria e energia,Química,Alta,"Catalisadores aceleram reações químicas criando um caminho com menor energia de ativação, sem serem consumidos no final",1
+7,Matéria e energia,Química,Alta,"Na tabela periódica, elementos no mesmo grupo têm propriedades químicas semelhantes devido à similaridade de elétrons de valência",1
+8,Matéria e energia,Química,Alta,"Ácidos de Arrhenius liberam íons H+ em água, explicando suas propriedades ácidas e capacidade de neutralizar bases",erdadeira
+9,Matéria e energia,Química,Alta,"A massa molar permite converter entre massa de substância e quantidade de matéria em mols, sendo crucial para cálculos químicos",1
+10,Matéria e energia,Química,Alta,A reatividade química de um átomo é determinada principalmente pela configuração dos elétrons em sua camada de valência,1
+11,Matéria e energia,Química,Alta,Íons têm carga elétrica porque possuem número diferente de elétrons comparado ao número de prótons do átomo neutro,1
+12,Matéria e energia,Química,Alta,A maleabilidade e ductilidade dos metais vêm dos elétrons livres que permitem o deslizamento atômico sob força,1
+13,Matéria e energia,Química,Alta,Soluções de sais solúveis conduzem eletricidade pela presença de íons carregados livres para se mover na água,1
+14,Matéria e energia,Química,Alta,"A água dissolve substâncias polares e iônicas devido à sua própria polaridade molecular, que interage com elas",1
+15,Matéria e energia,Química,Alta,"A solubilidade de gases em líquidos geralmente diminui com calor, pois moléculas de gás escapam mais facilmente do líquido aquecido",1
+16,Matéria e energia,Química,Alta,"Reações de combustão liberam energia  rapidamente ao reagir um combustível com um agente oxidante, usualmente oxigênio",1
+17,Matéria e energia,Química,Alta,"Em reações redox, oxidação  e redução sempre acontecem juntas entre substâncias diferentes",1
+18,Matéria e energia,Química,Alta,"Destilação separa líquidos por aquecimento baseado na diferença de seus pontos de ebulição, evaporando e condensando componentes",1
+19,Matéria e energia,Química,Alta,"Compostos iônicos só conduzem eletricidade fundidos ou dissolvidos, pois precisam de íons móveis; no sólido, os íons estão fixos",1
+20,Matéria e energia,Química,Alta,A vasta diversidade orgânica resulta da capacidade única do carbono formar longas cadeias e estruturas complexas ligando-se a si mesmo,1
+21,Matéria e energia,Química,Alta,"Em gases, as partículas ficam fixas em posições definidas, apenas vibrando levemente",0
+22,Matéria e energia,Química,Alta,O processo de solidificação absorve grande quantidade de energia do ambiente,0
+23,Matéria e energia,Química,Alta,Uma mistura homogênea pode ter seus componentes separados facilmente por filtração simples,0
+24,Matéria e energia,Química,Alta,"Todos os elétrons em um átomo estão localizados exclusivamente dentro do núcleo, junto com os prótons",0
+25,Matéria e energia,Química,Alta,"Em ligações covalentes, ocorre transferência completa de elétrons de um átomo para outro",0
+26,Matéria e energia,Química,Alta,Uma mudança química sempre pode ser revertida facilmente pelos mesmos meios físicos que a causaram,0
+27,Matéria e energia,Química,Alta,"Uma solução com pH 8 é considerada um ácido forte, pois tem alta concentração de íons H+",0
+28,Matéria e energia,Química,Alta,A solubilidade de um sólido em água geralmente diminui com o aumento da temperatura da solução,0
+29,Matéria e energia,Química,Alta,"A energia luminosa pode ser facilmente convertida em energia química, mas nunca pode ser convertida em energia térmica",0
+30,Matéria e energia,Química,Alta,"O princípio da conservação da energia afirma que a energia pode ser criada ou destruída, mas não transformada",0
+31,Matéria e energia,Química,Alta,"A transferência de calor por convecção acontece principalmente em sólidos, através da vibração das partículas",0
+32,Matéria e energia,Química,Alta,"Em um circuito elétrico simples, os elétrons fluem do polo positivo para o polo negativo da fonte de energia",0
+33,Matéria e energia,Química,Alta,"A energia nuclear em usinas é liberada pela fusão de núcleos atômicos leves, como o urânio",0
+34,Matéria e energia,Química,Alta,Observar a formação de bolhas em um líquido aquecido é sempre um sinal de que uma nova substância química está sendo formada,0
+35,Matéria e energia,Química,Alta,"Ao longo de um período na tabela periódica, o caráter metálico dos elementos geralmente aumenta da esquerda para a direita",0
+36,Matéria e energia,Química,Alta,"Em qualquer reação química, a soma das massas dos produtos é sempre maior do que a soma das massas dos reagentes",0
+37,Matéria e energia,Química,Alta,"Em uma pilha eletroquímica, os elétrons fluem externamente do cátodo para o ânodo através do circuito",0
+38,Matéria e energia,Química,Alta,Compostos orgânicos são definidos por sempre conterem átomos de oxigênio em sua estrutura molecular,0
+39,Matéria e energia,Química,Alta,Aumentar a área de superfície dos reagentes sólidos geralmente diminui a velocidade de uma reação química,0
+40,Matéria e energia,Química,Alta,"Um termômetro mede a quantidade total de calor presente em um corpo, não sua temperatura média das partículas",0
+1,Vida e Evolução,Biologia,Alta,Enzimas aceleram reações biológicas específicas agindo sobre substratos para diminuir a energia de ativação necessária,1
+2,Vida e Evolução,Biologia,Alta,A composição da membrana plasmática permite controlar seletivamente a entrada e saída de substâncias na célula,1
+3,Vida e Evolução,Biologia,Alta,"Mitocôndrias geram a maior parte da energia celular através da respiração celular, processo vital para as eucarióticas",1
+4,Vida e Evolução,Biologia,Alta,"Nos cloroplastos, células vegetais convertem energia luminosa em glicose usando água e gás carbônico",1
+5,Vida e Evolução,Biologia,Alta,"A meiose reduz os cromossomos pela metade para formar gametas, processo crucial na reprodução sexuada que aumenta a variabilidade",1
+6,Vida e Evolução,Biologia,Alta,"O DNA armazena informação genética na sequência de suas bases, dirigindo a síntese de proteínas e expressão de características",1
+7,Vida e Evolução,Biologia,Alta,A grande diversidade de espécies em um ecossistema contribui significativamente para sua resiliência e estabilidade a longo prazo,1
+8,Vida e Evolução,Biologia,Alta,"Hormônios agem como mensageiros químicos, regulando e coordenando processos fisiológicos complexos em diferentes partes de organismos",1
+9,Vida e Evolução,Biologia,Alta,"Pela seleção natural, indivíduos com características mais adaptadas ao ambiente tendem a sobreviver e reproduzir mais, transmitindo-as",1
+10,Vida e Evolução,Biologia,Alta,"A água é vital para células vivas pois suas propriedades facilitam reações químicas, transporte e manutenção da estrutura celular",1
+11,Vida e Evolução,Biologia,Alta,"Nos ecossistemas, a energia flui entre os níveis tróficos principalmente quando um organismo consome outro na cadeia alimentar",1
+12,Vida e Evolução,Biologia,Alta,"A parede celular vegetal, rica em celulose, fornece suporte estrutural e proteção mecânica à célula contra estresses externos",1
+13,Vida e Evolução,Biologia,Alta,"Anticorpos, produzidos pelo sistema imune, ligam-se a patógenos específicos marcando-os ou neutralizando-os diretamente para eliminação",1
+14,Vida e Evolução,Biologia,Alta,A quase universalidade do código genético em seres vivos sugere uma ancestralidade comum e permite o uso de técnicas de engenharia genética,1
+15,Vida e Evolução,Biologia,Alta,A difusão é o movimento espontâneo de partículas de uma área de maior concentração para uma de menor concentração,1
+16,Vida e Evolução,Biologia,Alta,Fungos secretam enzimas para digerir matéria orgânica fora de suas células e então absorvem os nutrientes resultantes,1
+17,Vida e Evolução,Biologia,Alta,O sistema nervoso usa impulsos elétricos em neurônios para coordenar respostas rápidas e comunicação entre diferentes partes do corpo,1
+18,Vida e Evolução,Biologia,Alta,A variabilidade genética dentro de uma população aumenta suas chances de adaptação e sobrevivência a mudanças ambientais ao longo do tempo,1
+19,Vida e Evolução,Biologia,Alta,Vírus não possuem maquinário próprio e precisam usar a estrutura e processos das células hospedeiras para conseguir se replicar,1
+20,Vida e Evolução,Biologia,Alta,"Ribossomos são as estruturas celulares onde ocorre a síntese de proteínas, traduzindo a informação genética contida no RNA mensageiro",1
+21,Vida e Evolução,Biologia,Alta,O núcleo celular é responsável por produzir a maior parte da energia usada pela célula,0
+22,Vida e Evolução,Biologia,Alta,A osmose é o movimento de soluto através de membrana semipermeável da menor para a maior concentração,0
+23,Vida e Evolução,Biologia,Alta,A mitose produz gametas com metade do número original de cromossomos da célula-mãe,0
+24,Vida e Evolução,Biologia,Alta,"Durante a síntese de proteínas, o DNA sai do núcleo e viaja até os ribossomos para ser traduzido",0
+25,Vida e Evolução,Biologia,Alta,"Em uma cadeia alimentar, a energia flui principalmente dos consumidores de nível superior para os produtores na base",0
+26,Vida e Evolução,Biologia,Alta,"Fósseis são formados exclusivamente a partir de partes moles de organismos antigos, como músculos e órgãos",0
+27,Vida e Evolução,Biologia,Alta,O sistema circulatório nos animais é responsável principalmente pela coordenação das respostas rápidas a estímulos externos,0
+28,Vida e Evolução,Biologia,Alta,Mutações genéticas sempre causam doenças graves e são prejudiciais para o organismo que as possui,0
+29,Vida e Evolução,Biologia,Alta,Bactérias são organismos multicelulares complexos que obtêm energia exclusivamente através da fotossíntese,0
+30,Vida e Evolução,Biologia,Alta,Lipídios servem principalmente como fonte imediata de energia para as células vivas,0
+31,Vida e Evolução,Biologia,Alta,"A clonagem cria um organismo geneticamente idêntico, mas apenas se for de uma espécie completamente diferente",0
+32,Vida e Evolução,Biologia,Alta,O processo de respiração celular ocorre exclusivamente nos cloroplastos das células vegetais,0
+33,Vida e Evolução,Biologia,Alta,Anticorpos funcionam diretamente destruindo fisicamente os patógenos assim que os encontram,0
+34,Vida e Evolução,Biologia,Alta,Toda a informação genética em uma célula é encontrada exclusivamente nos cromossomos localizados dentro do núcleo,0
+35,Vida e Evolução,Biologia,Alta,"Em um ecossistema, os decompositores transferem energia diretamente de volta para os produtores",0
+36,Vida e Evolução,Biologia,Alta,"A digestão ocorre apenas dentro das células nos organismos multicelulares, como nos humanos",0
+37,Vida e Evolução,Biologia,Alta,Vírus são considerados seres vivos complexos pois realizam metabolismo próprio e reproduzem-se independentemente,0
+38,Vida e Evolução,Biologia,Alta,O principal papel do sistema endócrino é coordenar respostas musculares rápidas a estímulos externos,0
+39,Vida e Evolução,Biologia,Alta,A variabilidade genética dentro de uma população prejudica sua capacidade de adaptação a mudanças ambientais,0
+40,Vida e Evolução,Biologia,Alta,Plantas obtêm a maior parte de sua massa seca absorvendo diretamente nutrientes minerais e água do solo,0
+1,Terra e universo,Física,Alta,A rotação terrestre explica o ciclo diurno-noturno pela exposição solar de diferentes partes do planeta,1
+2,Terra e universo,Física,Alta,A inclinação do eixo terrestre e a translação geram estações inversas devido à incidência solar variada,1
+3,Terra e universo,Física,Alta,"Posições relativas de Sol, Terra e Lua definem as fases lunares visíveis pela área iluminada",1
+4,Terra e universo,Física,Alta,"A gravidade da Lua e do Sol causa as marés, influenciando variações como sizígia e quadratura",1
+5,Terra e universo,Física,Alta,"A gravidade solar mantém órbitas planetárias elípticas, e a velocidade varia conforme a distância ao Sol",1
+6,Terra e universo,Física,Alta,Telescópios refratores e refletores funcionam diferentemente para focar luz em objetos distantes,1
+7,Terra e universo,Física,Alta,"Radiação solar impulsiona o ciclo da água e fotossíntese, conectando processos climáticos à vida terrestre",1
+8,Terra e universo,Física,Alta,"A cor da estrela indica sua temperatura: azuis são mais quentes, vermelhas são mais frias",1
+9,Terra e universo,Física,Alta,"Eclipses solar e lunar dependem da posição relativa de Sol, Terra e Lua",1
+10,Terra e universo,Física,Alta,"Gases estufa retêm calor na atmosfera, mantendo a temperatura terrestre; sem eles, o planeta seria gelado",1
+11,Terra e universo,Física,Alta,"Pressão atmosférica planetária depende da massa, composição gasosa e gravidade, determinando sua densidade",1
+12,Terra e universo,Física,Alta,"Ver estrelas distantes é ver o passado, pois a luz viaja por vastas distâncias cósmicas",1
+13,Terra e universo,Física,Alta,Faixas do espectro eletromagnético revelam informações distintas sobre objetos celestes conforme o tipo de observação,1
+14,Terra e universo,Física,Alta,"Foguetes movem-se no vácuo pelo princípio de ação e reação, expelindo massa para impulso",1
+15,Terra e universo,Física,Alta,"Supernovas resultam de fusão nuclear em estrelas massivas, liberando energia e criando elementos pesados",1
+16,Terra e universo,Física,Alta,"Ano-luz é medida prática para galáxias, pois a luz viaja vastas distâncias no espaço",1
+17,Terra e universo,Física,Alta,"O som é  uma onda mecânica que se propaga no ar, mas não no vácuo por falta de meio material",1
+18,Terra e universo,Física,Alta,Astronautas em órbita sentem ausência de peso devido à queda livre contínua ao redor da Terra,1
+19,Terra e universo,Física,Alta,O estilingue gravitacional usa a gravidade planetária para alterar velocidade e trajetória de naves espaciais,1
+20,Terra e universo,Física,Alta,"Radiação solar transfere energia para a Terra, impulsionando processos climáticos e a vida no planeta",1
+21,Terra e universo,Física,Alta,"As estações dependem da distância Terra-Sol, com órbitas elípticas explicando as mudanças climáticas",0
+22,Terra e universo,Física,Alta,O ciclo dia e noite na Terra é causado pela translação anual do planeta ao redor do Sol,0
+23,Terra e universo,Física,Alta,"As fases lunares resultam da sombra terrestre na Lua, que desaparece na fase Nova",0
+24,Terra e universo,Física,Alta,"As marés oceânicas são causadas principalmente pelo Sol, o que explica marés altas na quadratura",0
+25,Terra e universo,Física,Alta,A força gravitacional aumenta com o quadrado da distância entre objetos e também com suas massas,0
+26,Terra e universo,Física,Alta,"A luz de estrelas distantes chega instantaneamente, mostrando o universo exatamente como ele é agora",0
+27,Terra e universo,Física,Alta,"A energia solar chega por ondas sonoras no vácuo, pois a luz não se propaga no espaço",0
+28,Terra e universo,Física,Alta,"As estrelas mais brilhantes são sempre maiores e mais quentes, pois luminosidade depende só de tamanho e temperatura",0
+29,Terra e universo,Física,Alta,"A expansão do universo move galáxias umas em direção às outras, causando colisões gerais futuras",0
+30,Terra e universo,Física,Alta,"Os gases estufa bloqueiam todo o calor terrestre, impedindo seu escape e causando aquecimento ilimitado",0
+31,Terra e universo,Física,Alta,Os planetas mantêm órbitas circulares perfeitas devido a um impulso constante que anula a gravidade solar,0
+32,Terra e universo,Física,Alta,"Um eclipse lunar ocorre quando a Lua passa entre Sol e Terra, bloqueando a luz solar",0
+33,Terra e universo,Física,Alta,"A pressão atmosférica aumenta com a altitude, pois o ar fica mais denso em grandes alturas",0
+34,Terra e universo,Física,Alta,"A luz viaja mais rápido no ar que no vácuo, pois as partículas a impulsionam",0
+35,Terra e universo,Física,Alta,"As ondas de rádio têm mais energia por fóton que raios gama, por isso raios gama são menos perigosos",0
+36,Terra e universo,Física,Alta,"Os foguetes movem-se no vácuo empurrando o ar atrás, sem ar não há propulsão",0
+37,Terra e universo,Física,Alta,"Em colisões planetárias, energia é destruída, pois a Conservação não se aplica em grande escala",0
+38,Terra e universo,Física,Alta,"AU são ideais para medir distâncias entre estrelas e galáxias, pois ano-luz é muito pequeno",0
+39,Terra e universo,Física,Alta,"O som viaja mais rápido no vácuo que na atmosfera, sem resistência de partículas",0
+40,Terra e universo,Física,Alta,Os astronautas em órbita sentem ausência de peso por estarem fora do alcance da gravidade terrestre,0
