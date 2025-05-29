@@ -169,7 +169,7 @@ def run_blocks(pipe, subject_id):
 
             # ── 6d) Check end‐of‐block criteria ─────────────────────────────
             # Must have at least 360 s of audio...
-            if total_audio >= 10.0:
+            if total_audio >= 360.0:
                 if block['type'] == 'control':
                     break
                 # Complexity blocks need equal counts and at least one of each
