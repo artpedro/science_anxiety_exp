@@ -4,8 +4,8 @@ from pathlib import Path
 from typing import List, Dict
 from collections import Counter
 import time
-from pylsl import resolve_stream
-
+#from pylsl import resolve_stream
+'''
 def wait_for_streams(stream_names, timeout=2.0, retry_interval=5.0):
     """
     Block until all LSL streams in `stream_names` are available.
@@ -28,7 +28,7 @@ def wait_for_streams(stream_names, timeout=2.0, retry_interval=5.0):
             time.sleep(retry_interval)
 
     print("\n>>> All required LSL streams are now available! Proceeding …\n")
-
+'''
 
 def get_wav_duration(file_path: str) -> float:
     """Return duration of a WAV file in seconds."""
