@@ -16,11 +16,12 @@ import sys
 
 if sys.platform.startswith("win"):
     import winsound
-    from winsound import Playsound as playsound
+    from winsound import PlaySound as playsound
     print('importing winsound for audio playback')
     def play_audio(path: str):
         """Windows: use winsound, then sleep the known duration."""
         playsound(path, winsound.SND_FILENAME)
+
 else:
     print('importing playsound for linux')
     from playsound import playsound
@@ -45,9 +46,9 @@ def run_blocks(subject_id):
     print("="*60 + "\n")
     # ── Then proceed with PsychoPy setup & SPACE prompt ─────────
     # ── 1) Load question pools & prepare 4 blocks ─────────────────────────────────
-    sci_base     = Path(cfg.GLOBAL_QUESTIONS_DIR).parent / "science_questions"
-    control_qs, high_qs, low_qs = load_science_questions(str(sci_base))
-    blocks       = prepare_all_blocks(control_qs, high_qs, low_qs, min_duration=120.0)
+    sci_base     =  os.path.join("data","science_questions")
+    control_qs, high_qs, low_qs = load_science_questions()
+    blocks       = prepare_all_blocks(control_qs, high_qs, low_qs, min_duration=180.0)
 
     # Diagnostic: show chosen block order
     print("\n" + "#"*80)
@@ -88,7 +89,7 @@ def run_blocks(subject_id):
     for blk_idx, block in enumerate(blocks, start=1):
         
         # Prepare block folder and metadata container
-        block_folder    = cfg.BASE_DATA_DIR / subject_id / f"block_{blk_idx:02d}"
+        block_folder    = os.path.join('data',subject_id,f"block_{blk_idx:02d}")
         os.makedirs(block_folder, exist_ok=True)
         
         # List to accumulate metadata rows for this block
@@ -161,7 +162,7 @@ def run_blocks(subject_id):
 
             # ── 6d) Check end‐of‐block criteria ─────────────────────────────
             # Must have at least 360 s of audio...
-            if total_audio >= 60.0:
+            if total_audio >= 180.0:
                 if block['type'] == 'control':
                     break
                 # Complexity blocks need equal counts and at least one of each
@@ -171,7 +172,7 @@ def run_blocks(subject_id):
         core.wait(5)
 
         # ── 7) End of block: write metadata, stop collector, send marker ─────
-        metadata_path = block_folder / "metadata.csv"
+        metadata_path = os.path.join(block_folder,"metadata.csv")
         pd.DataFrame(block_metadata).to_csv(metadata_path, index=False)
         print(f"Saved block metadata → {metadata_path}")
 
