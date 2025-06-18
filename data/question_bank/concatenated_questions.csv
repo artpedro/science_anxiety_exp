@@ -1,0 +1,721 @@
+Número por área,Eixo (SAEB),Área,Complexidade,Tarefa,Condição,Número,UID
+1.0,Matéria e energia,Química,Alta,"Em equações químicas balanceadas, o total de átomos de cada elemento antes e depois da reação é o mesmo",1,,0
+2.0,Matéria e energia,Química,Alta,O átomo mais eletronegativo em uma ligação química atrai os elétrons compartilhados com maior força para si,1,,1
+3.0,Matéria e energia,Química,Alta,"As ligações iônicas formam-se por transferência de elétrons entre metais e ametais, criando íons que se atraem eletrostaticamente",1,,2
+4.0,Matéria e energia,Química,Alta,O estado físico de substâncias moleculares depende diretamente da intensidade das interações entre suas moléculas,1,,3
+5.0,Matéria e energia,Química,Alta,"Aumentar a temperatura acelera reações químicas, elevando a energia e a frequência das colisões entre as partículas",1,,4
+6.0,Matéria e energia,Química,Alta,"Catalisadores aceleram reações químicas criando um caminho com menor energia de ativação, sem serem consumidos no final",1,,5
+7.0,Matéria e energia,Química,Alta,"Na tabela periódica, elementos no mesmo grupo têm propriedades químicas semelhantes devido à similaridade de elétrons de valência",1,,6
+8.0,Matéria e energia,Química,Alta,"Ácidos de Arrhenius liberam íons H+ em água, explicando suas propriedades ácidas e capacidade de neutralizar bases",1,,7
+9.0,Matéria e energia,Química,Alta,"A massa molar permite converter entre massa de substância e quantidade de matéria em mols, sendo crucial para cálculos químicos",1,,8
+10.0,Matéria e energia,Química,Alta,A reatividade química de um átomo é determinada principalmente pela configuração dos elétrons em sua camada de valência,1,,9
+11.0,Matéria e energia,Química,Alta,Os íons têm carga elétrica porque possuem número diferente de elétrons comparado ao número de prótons do átomo neutro,1,,10
+12.0,Matéria e energia,Química,Alta,A maleabilidade e ductilidade dos metais vêm dos elétrons livres que permitem o deslizamento atômico sob força,1,,11
+13.0,Matéria e energia,Química,Alta,Soluções de sais solúveis conduzem eletricidade pela presença de íons carregados livres para se mover na água,1,,12
+14.0,Matéria e energia,Química,Alta,"A água dissolve substâncias polares e iônicas devido à sua própria polaridade molecular, que interage com elas",1,,13
+15.0,Matéria e energia,Química,Alta,"A solubilidade de gases em líquidos geralmente diminui com calor, pois moléculas de gás escapam mais facilmente do líquido aquecido",1,,14
+16.0,Matéria e energia,Química,Alta,"As reações de combustão liberam energia rapidamente ao reagir um combustível com um agente oxidante, usualmente oxigênio",1,,15
+17.0,Matéria e energia,Química,Alta,"Em reações redox, oxidação e redução sempre acontecem juntas entre substâncias diferentes",1,,16
+18.0,Matéria e energia,Química,Alta,"A destilação separa líquidos por aquecimento baseado na diferença de seus pontos de ebulição, evaporando e condensando componentes",1,,17
+19.0,Matéria e energia,Química,Alta,"Compostos iônicos só conduzem eletricidade fundidos ou dissolvidos, pois precisam de íons móveis; no sólido, os íons estão fixos",1,,18
+20.0,Matéria e energia,Química,Alta,A vasta diversidade orgânica resulta da capacidade única do carbono formar longas cadeias e estruturas complexas ligando-se a si mesmo,1,,19
+21.0,Matéria e energia,Química,Alta,"Em gases, as partículas ficam fixas em posições definidas, apenas vibrando levemente",0,,20
+22.0,Matéria e energia,Química,Alta,O processo de solidificação absorve grande quantidade de energia do ambiente,0,,21
+23.0,Matéria e energia,Química,Alta,Uma mistura homogênea pode ter seus componentes separados facilmente por filtração simples,0,,22
+24.0,Matéria e energia,Química,Alta,"Todos os elétrons em um átomo estão localizados exclusivamente dentro do núcleo, junto com os prótons",0,,23
+25.0,Matéria e energia,Química,Alta,"Em ligações covalentes, ocorre transferência completa de elétrons de um átomo para outro",0,,24
+26.0,Matéria e energia,Química,Alta,Uma mudança química sempre pode ser revertida facilmente pelos mesmos meios físicos que a causaram,0,,25
+27.0,Matéria e energia,Química,Alta,"Uma solução com pH 8 é considerada um ácido forte, pois tem alta concentração de íons H+",0,,26
+28.0,Matéria e energia,Química,Alta,A solubilidade de um sólido em água geralmente diminui com o aumento da temperatura da solução,0,,27
+29.0,Matéria e energia,Química,Alta,"A energia luminosa pode ser facilmente convertida em energia química, mas nunca pode ser convertida em energia térmica",0,,28
+30.0,Matéria e energia,Química,Alta,"O princípio da conservação da energia afirma que a energia pode ser criada ou destruída, mas não transformada",0,,29
+31.0,Matéria e energia,Química,Alta,"A transferência de calor por convecção acontece principalmente em sólidos, através da vibração das partículas",0,,30
+32.0,Matéria e energia,Química,Alta,"Em um circuito elétrico simples, os elétrons fluem do polo positivo para o polo negativo da fonte de energia",0,,31
+33.0,Matéria e energia,Química,Alta,"A energia nuclear em usinas é liberada pela fusão de núcleos atômicos leves, como o urânio",0,,32
+34.0,Matéria e energia,Química,Alta,Observar a formação de bolhas em um líquido aquecido é sempre um sinal de que uma nova substância química está sendo formada,0,,33
+35.0,Matéria e energia,Química,Alta,"Ao longo de um período na tabela periódica, o caráter metálico dos elementos geralmente aumenta da esquerda para a direita",0,,34
+36.0,Matéria e energia,Química,Alta,"Em qualquer reação química, a soma das massas dos produtos é sempre maior do que a soma das massas dos reagentes",0,,35
+37.0,Matéria e energia,Química,Alta,"Em uma pilha eletroquímica, os elétrons fluem externamente do cátodo para o ânodo através do circuito",0,,36
+38.0,Matéria e energia,Química,Alta,Compostos orgânicos são definidos por sempre conterem átomos de oxigênio em sua estrutura molecular,0,,37
+39.0,Matéria e energia,Química,Alta,Aumentar a área de superfície dos reagentes sólidos geralmente diminui a velocidade de uma reação química,0,,38
+40.0,Matéria e energia,Química,Alta,"Um termômetro mede a quantidade total de calor presente em um corpo, não sua temperatura média das partículas",0,,39
+1.0,Vida e Evolução,Biologia,Alta,As enzimas aceleram reações biológicas específicas agindo sobre substratos para diminuir a energia de ativação necessária,1,,40
+2.0,Vida e Evolução,Biologia,Alta,A composição da membrana plasmática permite controlar seletivamente a entrada e saída de substâncias na célula,1,,41
+3.0,Vida e Evolução,Biologia,Alta,"As mitocôndrias geram a maior parte da energia celular através da respiração celular, processo vital para as eucarióticas",1,,42
+4.0,Vida e Evolução,Biologia,Alta,"Nos cloroplastos, células vegetais convertem energia luminosa em glicose usando água e gás carbônico",1,,43
+5.0,Vida e Evolução,Biologia,Alta,"A meiose reduz os cromossomos pela metade para formar gametas, processo crucial na reprodução sexuada que aumenta a variabilidade",1,,44
+6.0,Vida e Evolução,Biologia,Alta,"O DNA armazena informação genética na sequência de suas bases, dirigindo a síntese de proteínas e expressão de características",1,,45
+7.0,Vida e Evolução,Biologia,Alta,A grande diversidade de espécies em um ecossistema contribui significativamente para sua resiliência e estabilidade a longo prazo,1,,46
+8.0,Vida e Evolução,Biologia,Alta,"Os hormônios agem como mensageiros químicos, regulando e coordenando processos fisiológicos complexos em diferentes partes de organismos",1,,47
+9.0,Vida e Evolução,Biologia,Alta,"Pela seleção natural, indivíduos com características mais adaptadas ao ambiente tendem a sobreviver e reproduzir mais, transmitindo-as",1,,48
+10.0,Vida e Evolução,Biologia,Alta,"A água é vital para células vivas pois suas propriedades facilitam reações químicas, transporte e manutenção da estrutura celular",1,,49
+11.0,Vida e Evolução,Biologia,Alta,"Nos ecossistemas, a energia flui entre os níveis tróficos principalmente quando um organismo consome outro na cadeia alimentar",1,,50
+12.0,Vida e Evolução,Biologia,Alta,"A parede celular vegetal, rica em celulose, fornece suporte estrutural e proteção mecânica à célula contra estresses externos",1,,51
+13.0,Vida e Evolução,Biologia,Alta,"Anticorpos, produzidos pelo sistema imune, ligam-se a patógenos específicos marcando-os ou neutralizando-os diretamente para eliminação",1,,52
+14.0,Vida e Evolução,Biologia,Alta,A quase universalidade do código genético em seres vivos sugere uma ancestralidade comum e permite o uso de técnicas de engenharia genética,1,,53
+15.0,Vida e Evolução,Biologia,Alta,A difusão é o movimento espontâneo de partículas de uma área de maior concentração para uma de menor concentração,1,,54
+16.0,Vida e Evolução,Biologia,Alta,Os fungos secretam enzimas para digerir matéria orgânica fora de suas células e então absorvem os nutrientes resultantes,1,,55
+17.0,Vida e Evolução,Biologia,Alta,O sistema nervoso usa impulsos elétricos em neurônios para coordenar respostas rápidas e comunicação entre diferentes partes do corpo,1,,56
+18.0,Vida e Evolução,Biologia,Alta,A variabilidade genética dentro de uma população aumenta suas chances de adaptação e sobrevivência a mudanças ambientais ao longo do tempo,1,,57
+19.0,Vida e Evolução,Biologia,Alta,Os vírus não possuem maquinário próprio e precisam usar a estrutura e processos das células hospedeiras para conseguir se replicar,1,,58
+20.0,Vida e Evolução,Biologia,Alta,"Os ribossomos são as estruturas celulares onde ocorre a síntese de proteínas, traduzindo a informação genética contida no RNA mensageiro",1,,59
+21.0,Vida e Evolução,Biologia,Alta,O núcleo celular é responsável por produzir a maior parte da energia usada pela célula,0,,60
+22.0,Vida e Evolução,Biologia,Alta,A osmose é o movimento de soluto através de membrana semipermeável da menor para a maior concentração,0,,61
+23.0,Vida e Evolução,Biologia,Alta,A mitose produz gametas com metade do número original de cromossomos da célula-mãe,0,,62
+24.0,Vida e Evolução,Biologia,Alta,"Durante a síntese de proteínas, o DNA sai do núcleo e viaja até os ribossomos para ser traduzido",0,,63
+25.0,Vida e Evolução,Biologia,Alta,"Em uma cadeia alimentar, a energia flui principalmente dos consumidores de nível superior para os produtores na base",0,,64
+26.0,Vida e Evolução,Biologia,Alta,"Fósseis são formados exclusivamente a partir de partes moles de organismos antigos, como músculos e órgãos",0,,65
+27.0,Vida e Evolução,Biologia,Alta,O sistema circulatório nos animais é responsável principalmente pela coordenação das respostas rápidas a estímulos externos,0,,66
+28.0,Vida e Evolução,Biologia,Alta,Mutações genéticas sempre causam doenças graves e são prejudiciais para o organismo que as possui,0,,67
+29.0,Vida e Evolução,Biologia,Alta,Bactérias são organismos multicelulares complexos que obtêm energia exclusivamente através da fotossíntese,0,,68
+30.0,Vida e Evolução,Biologia,Alta,Lipídios servem principalmente como fonte imediata de energia para as células vivas,0,,69
+31.0,Vida e Evolução,Biologia,Alta,"A clonagem cria um organismo geneticamente idêntico, mas apenas se for de uma espécie completamente diferente",0,,70
+32.0,Vida e Evolução,Biologia,Alta,O processo de respiração celular ocorre exclusivamente nos cloroplastos das células vegetais,0,,71
+33.0,Vida e Evolução,Biologia,Alta,Anticorpos funcionam diretamente destruindo fisicamente os patógenos assim que os encontram,0,,72
+34.0,Vida e Evolução,Biologia,Alta,Toda a informação genética em uma célula é encontrada exclusivamente nos cromossomos localizados dentro do núcleo,0,,73
+35.0,Vida e Evolução,Biologia,Alta,"Em um ecossistema, os decompositores transferem energia diretamente de volta para os produtores",0,,74
+36.0,Vida e Evolução,Biologia,Alta,"A digestão ocorre apenas dentro das células nos organismos multicelulares, como nos humanos",0,,75
+37.0,Vida e Evolução,Biologia,Alta,Vírus são considerados seres vivos complexos pois realizam metabolismo próprio e reproduzem-se independentemente,0,,76
+38.0,Vida e Evolução,Biologia,Alta,O principal papel do sistema endócrino é coordenar respostas musculares rápidas a estímulos externos,0,,77
+39.0,Vida e Evolução,Biologia,Alta,A variabilidade genética dentro de uma população prejudica sua capacidade de adaptação a mudanças ambientais,0,,78
+40.0,Vida e Evolução,Biologia,Alta,Plantas obtêm a maior parte de sua massa seca absorvendo diretamente nutrientes minerais e água do solo,0,,79
+1.0,Terra e universo,Física,Alta,A rotação terrestre explica o ciclo diurno-noturno pela exposição solar de diferentes partes do planeta,1,,80
+2.0,Terra e universo,Física,Alta,A inclinação do eixo terrestre e a translação geram estações inversas devido à incidência solar variada,1,,81
+3.0,Terra e universo,Física,Alta,"Posições relativas de Sol, Terra e Lua definem as fases lunares visíveis pela área iluminada",1,,82
+4.0,Terra e universo,Física,Alta,"A gravidade da Lua e do Sol causa as marés, influenciando variações como sizígia e quadratura",1,,83
+5.0,Terra e universo,Física,Alta,"A gravidade solar mantém órbitas planetárias elípticas, e a velocidade varia conforme a distância ao Sol",1,,84
+6.0,Terra e universo,Física,Alta,Telescópios refratores e refletores funcionam diferentemente para focar luz em objetos distantes,1,,85
+7.0,Terra e universo,Física,Alta,"Radiação solar impulsiona o ciclo da água e fotossíntese, conectando processos climáticos à vida terrestre",1,,86
+8.0,Terra e universo,Física,Alta,"A cor da estrela indica sua temperatura: azuis são mais quentes, vermelhas são mais frias",1,,87
+9.0,Terra e universo,Física,Alta,"Eclipses solar e lunar dependem da posição relativa de Sol, Terra e Lua",1,,88
+10.0,Terra e universo,Física,Alta,"Gases estufa retêm calor na atmosfera, mantendo a temperatura terrestre; sem eles, o planeta seria gelado",1,,89
+11.0,Terra e universo,Física,Alta,"Pressão atmosférica planetária depende da massa, composição gasosa e gravidade, determinando sua densidade",1,,90
+12.0,Terra e universo,Física,Alta,"Ver estrelas distantes é ver o passado, pois a luz viaja por vastas distâncias cósmicas",1,,91
+13.0,Terra e universo,Física,Alta,Faixas do espectro eletromagnético revelam informações distintas sobre objetos celestes conforme o tipo de observação,1,,92
+14.0,Terra e universo,Física,Alta,"Foguetes movem-se no vácuo pelo princípio de ação e reação, expelindo massa para impulso",1,,93
+15.0,Terra e universo,Física,Alta,"Supernovas resultam de fusão nuclear em estrelas massivas, liberando energia e criando elementos pesados",1,,94
+16.0,Terra e universo,Física,Alta,"Ano-luz é medida prática para galáxias, pois a luz viaja vastas distâncias no espaço",1,,95
+17.0,Terra e universo,Física,Alta,"O som é uma onda mecânica que se propaga no ar, mas não no vácuo por falta de meio material",1,,96
+18.0,Terra e universo,Física,Alta,Os astronautas em órbita sentem ausência de peso devido à queda livre contínua ao redor da Terra,1,,97
+19.0,Terra e universo,Física,Alta,O estilingue gravitacional usa a gravidade planetária para alterar velocidade e trajetória de naves espaciais,1,,98
+20.0,Terra e universo,Física,Alta,"Radiação solar transfere energia para a Terra, impulsionando processos climáticos e a vida no planeta",1,,99
+21.0,Terra e universo,Física,Alta,"As estações dependem da distância Terra-Sol, com órbitas elípticas explicando as mudanças climáticas",0,,100
+22.0,Terra e universo,Física,Alta,O ciclo dia e noite na Terra é causado pela translação anual do planeta ao redor do Sol,0,,101
+23.0,Terra e universo,Física,Alta,"As fases lunares resultam da sombra terrestre na Lua, que desaparece na fase Nova",0,,102
+24.0,Terra e universo,Física,Alta,"As marés oceânicas são causadas principalmente pelo Sol, o que explica marés altas na quadratura",0,,103
+25.0,Terra e universo,Física,Alta,A força gravitacional aumenta com o quadrado da distância entre objetos e também com suas massas,0,,104
+26.0,Terra e universo,Física,Alta,"A luz de estrelas distantes chega instantaneamente, mostrando o universo exatamente como ele é agora",0,,105
+27.0,Terra e universo,Física,Alta,"A energia solar chega por ondas sonoras no vácuo, pois a luz não se propaga no espaço",0,,106
+28.0,Terra e universo,Física,Alta,"As estrelas mais brilhantes são sempre maiores e mais quentes, pois luminosidade depende só de tamanho e temperatura",0,,107
+29.0,Terra e universo,Física,Alta,"A expansão do universo move galáxias umas em direção às outras, causando colisões gerais futuras",0,,108
+30.0,Terra e universo,Física,Alta,"Os gases estufa bloqueiam todo o calor terrestre, impedindo seu escape e causando aquecimento ilimitado",0,,109
+31.0,Terra e universo,Física,Alta,Os planetas mantêm órbitas circulares perfeitas devido a um impulso constante que anula a gravidade solar,0,,110
+32.0,Terra e universo,Física,Alta,"Um eclipse lunar ocorre quando a Lua passa entre Sol e Terra, bloqueando a luz solar",0,,111
+33.0,Terra e universo,Física,Alta,"A pressão atmosférica aumenta com a altitude, pois o ar fica mais denso em grandes alturas",0,,112
+34.0,Terra e universo,Física,Alta,"A luz viaja mais rápido no ar que no vácuo, pois as partículas a impulsionam",0,,113
+35.0,Terra e universo,Física,Alta,"As ondas de rádio têm mais energia por fóton que raios gama, por isso raios gama são menos perigosos",0,,114
+36.0,Terra e universo,Física,Alta,"Os foguetes movem-se no vácuo empurrando o ar atrás, sem ar não há propulsão",0,,115
+37.0,Terra e universo,Física,Alta,"Em colisões planetárias, energia é destruída, pois a Conservação não se aplica em grande escala",0,,116
+38.0,Terra e universo,Física,Alta,"as unidade 'AU' são ideais para medir distâncias entre estrelas e galáxias, pois o ano-luz é muito pequeno",0,,117
+39.0,Terra e universo,Física,Alta,"O som viaja mais rápido no vácuo que na atmosfera, sem resistência de partículas",0,,118
+40.0,Terra e universo,Física,Alta,Os astronautas em órbita sentem ausência de peso por estarem fora do alcance da gravidade terrestre,0,,119
+1.0,Matéria e energia,Química,Baixa,A água pura ferve a 100°C ao nível do mar,1,,120
+2.0,Matéria e energia,Química,Baixa,"O átomo é constituído por prótons, elétrons e nêutrons",1,,121
+3.0,Matéria e energia,Química,Baixa,Uma mistura homogênia possui uma única fase,1,,122
+4.0,Matéria e energia,Química,Baixa,O oxigênio é necessário para a combustão,1,,123
+5.0,Matéria e energia,Química,Baixa,"A água pode ser encontrada em estado sólido, líquido e gasoso",1,,124
+6.0,Matéria e energia,Química,Baixa,O limão contém substâncias ácidas,1,,125
+7.0,Matéria e energia,Química,Baixa,A luz é considerada uma forma de energia,1,,126
+8.0,Matéria e energia,Química,Baixa,Podemos separar misturas usando métodos como filtração,1,,127
+9.0,Matéria e energia,Química,Baixa,A temperatura mostra se as partículas estão mais rápidas ou lentas,1,,128
+10.0,Matéria e energia,Química,Baixa,O calor sempre vai de um lugar mais quente para um lugar mais frio,1,,129
+11.0,Matéria e energia,Química,Baixa,O ouro é um elemento químico,1,,130
+12.0,Matéria e energia,Química,Baixa,A ar que respiramos é uma mistura de diferentes gases,1,,131
+13.0,Matéria e energia,Química,Baixa,Uma parte do ar que respiramos é oxigênio,1,,132
+14.0,Matéria e energia,Química,Baixa,"O calor pode passar tocando, pelo ar ou pela luz",1,,133
+15.0,Matéria e energia,Química,Baixa,Os metais são bons condutores de eletricidade,1,,134
+16.0,Matéria e energia,Química,Baixa,Metais conduzem eletricidade melhor que madeira,1,,135
+17.0,Matéria e energia,Química,Baixa,"A energia muda de forma, mas nunca desaparece",1,,136
+18.0,Matéria e energia,Química,Baixa,Os metais não conseguem passar o calor facilmente,1,,137
+19.0,Matéria e energia,Química,Baixa,"Quanto mais tempo a água ferve, mais quente ela fica",1,,138
+20.0,Matéria e energia,Química,Baixa,Tudo o que existe é feito de pequenas partículas chamadas átomos,1,,139
+21.0,Matéria e energia,Química,Baixa,A água só existe no estado líquido na Terra,0,,140
+22.0,Matéria e energia,Química,Baixa,O sal de cozinha é insolúvel em água,0,,141
+23.0,Matéria e energia,Química,Baixa,"Quando as partículas do ar esquentam, param de se mexer",0,,142
+24.0,Matéria e energia,Química,Baixa,A água é um péssimo solvente,0,,143
+25.0,Matéria e energia,Química,Baixa,A eletricidade só existe quando vemos faíscas ou raios,0,,144
+26.0,Matéria e energia,Química,Baixa,O calor é uma coisa que entra e sai dos corpos como um líquido,0,,145
+27.0,Matéria e energia,Química,Baixa,A eletricidade vem do movimento dos nêutrons nos fios,0,,146
+28.0,Matéria e energia,Química,Baixa,Partículas com cargas opostas se repelem,0,,147
+29.0,Matéria e energia,Química,Baixa,A fusão é a passagemda matéria do estado líquido para o gasoso,0,,148
+30.0,Matéria e energia,Química,Baixa,O frio é um tipo de energia que entra nos corpos quentes,0,,149
+31.0,Matéria e energia,Química,Baixa,Misturas heterogênias apresentam uma única fase,0,,150
+32.0,Matéria e energia,Química,Baixa,"Os gáses têm forma própria, igual a uma pedra",0,,151
+33.0,Matéria e energia,Química,Baixa,O ferro é um não-metal,0,,152
+34.0,Matéria e energia,Química,Baixa,Todos os materiais conduzem eletricidade,0,,153
+35.0,Matéria e energia,Química,Baixa,A água ferve e congela na mesma temperatura,0,,154
+36.0,Matéria e energia,Química,Baixa,A água é um composto orgânico,0,,155
+37.0,Matéria e energia,Química,Baixa,Os elétrons são partículas com carga neutra,0,,156
+38.0,Matéria e energia,Química,Baixa,Os nêutrons são partículas com carga positiva,0,,157
+39.0,Matéria e energia,Química,Baixa,Os prótons são partículas com carga negativa,0,,158
+40.0,Matéria e energia,Química,Baixa,O oxigênio não é essencial para a combustão,0,,159
+1.0,Vida e Evolução,Biologia,Baixa,As plantas precisam de luz solar para realizarem a fotossíntese,1,,160
+2.0,Vida e Evolução,Biologia,Baixa,O sangue humano em condições saudáveis é vermelho,1,,161
+3.0,Vida e Evolução,Biologia,Baixa,A respiração celular ocorre dentro das mitocôndrias,1,,162
+4.0,Vida e Evolução,Biologia,Baixa,O ferro é um metal encontrado no sangue humano,1,,163
+5.0,Vida e Evolução,Biologia,Baixa,Todos os répteis são animais de sangue frio,1,,164
+6.0,Vida e Evolução,Biologia,Baixa,Os mamíferos possuem glândulas mamárias,1,,165
+7.0,Vida e Evolução,Biologia,Baixa,As plantas são seres vivos,1,,166
+8.0,Vida e Evolução,Biologia,Baixa,"Os seres vivos nascem, crescem e morrem",1,,167
+9.0,Vida e Evolução,Biologia,Baixa,O DNA carrega as informações genéticas dos seres vivos,1,,168
+10.0,Vida e Evolução,Biologia,Baixa,Os seres vivos são formados por pequenas unidades chamadas células,1,,169
+11.0,Vida e Evolução,Biologia,Baixa,A clorofila é o pigmento responsável pela cor verde das plantas,1,,170
+12.0,Vida e Evolução,Biologia,Baixa,Os fungos se alimentam por absorção de nutrientes do ambiente,1,,171
+13.0,Vida e Evolução,Biologia,Baixa,A pele é o maior órgão do corpo humano,1,,172
+14.0,Vida e Evolução,Biologia,Baixa,Alguns animais se alimentam apenas de plantas,1,,173
+15.0,Vida e Evolução,Biologia,Baixa,Os peixes respiram principalmente por meio de brânquias,1,,174
+16.0,Vida e Evolução,Biologia,Baixa,Os anticorpos são produzidos pelo sistema imunológico e combater invasores,1,,175
+17.0,Vida e Evolução,Biologia,Baixa,O pâncreas é responsável pela produção do hormônio chamado insulina,1,,176
+18.0,Vida e Evolução,Biologia,Baixa,A fotossíntese libera oxigênio como subproduto,1,,177
+19.0,Vida e Evolução,Biologia,Baixa,A hemoglobina é a proteína do sangue que transporta de oxigênio,1,,178
+20.0,Vida e Evolução,Biologia,Baixa,As bactérias podem ser encontradas quase em todos os ambientes da Terra,1,,179
+21.0,Vida e Evolução,Biologia,Baixa,As plantas absorvem nutrientes diretamente do ar,0,,180
+22.0,Vida e Evolução,Biologia,Baixa,O coração humano é responsável pela produção de oxigênio,0,,181
+23.0,Vida e Evolução,Biologia,Baixa,Plantas conseguem andar de um lugar para outro sozinhas,0,,182
+24.0,Vida e Evolução,Biologia,Baixa,A fotossíntese ocorre nas raízes das plantas,0,,183
+25.0,Vida e Evolução,Biologia,Baixa,Os insetos respiram pelos pulmões,0,,184
+26.0,Vida e Evolução,Biologia,Baixa,O cérebro fica guardado dentro do peito,0,,185
+27.0,Vida e Evolução,Biologia,Baixa,Os mamíferos botam ovos como regra geral,0,,186
+28.0,Vida e Evolução,Biologia,Baixa,A hemoglobina é encontrada apenas nos músculos,0,,187
+29.0,Vida e Evolução,Biologia,Baixa,As algas precisam de solo fértil para sobreviver,0,,188
+30.0,Vida e Evolução,Biologia,Baixa,As células vegetais não possuem mitocôndrias,0,,189
+31.0,Vida e Evolução,Biologia,Baixa,As células procariontes possuem núcleo definido,0,,190
+32.0,Vida e Evolução,Biologia,Baixa,As folhas das plantas crescem debaixo da terra,0,,191
+33.0,Vida e Evolução,Biologia,Baixa,Os peixes têm pelos macios igual a um gato,0,,192
+34.0,Vida e Evolução,Biologia,Baixa,Os pulmões têm como principal função bombear sangue,0,,193
+35.0,Vida e Evolução,Biologia,Baixa,Pedras e rochas são tipos de animais que não se mexem,0,,194
+36.0,Vida e Evolução,Biologia,Baixa,Maioria das aves são incapazes de voar,0,,195
+37.0,Vida e Evolução,Biologia,Baixa,Os seres humanos possuem dois corações,0,,196
+38.0,Vida e Evolução,Biologia,Baixa,Os ouvidos são utilizados para enxergar coisas,0,,197
+39.0,Vida e Evolução,Biologia,Baixa,O estômago é responsável pelos pensamentos,0,,198
+40.0,Vida e Evolução,Biologia,Baixa,Sentimos o gosto das coisas com os dentes,0,,199
+1.0,Terra e universo,Física,Baixa,A Terra tem o formato parecido com uma esfera,1,,200
+2.0,Terra e universo,Física,Baixa,O Sol é o centro do nosso Sistema Solar,1,,201
+3.0,Terra e universo,Física,Baixa,A Lua recebe luz do Sol,1,,202
+4.0,Terra e universo,Física,Baixa,A Terra completa um giro em torno de si mesma em cerca de um dia,1,,203
+5.0,Terra e universo,Física,Baixa,A sequência de dia e noite acontece porque a Terra gira,1,,204
+6.0,Terra e universo,Física,Baixa,A Terra se move em volta do Sol,1,,205
+7.0,Terra e universo,Física,Baixa,Leva um ano para a Terra dar a volta completa no Sol,1,,206
+8.0,Terra e universo,Física,Baixa,As estrelas que vemos no céu são sóis distantes,1,,207
+9.0,Terra e universo,Física,Baixa,Os planetas se movem em órbitas ao redor do Sol,1,,208
+10.0,Terra e universo,Física,Baixa,A gravidade da Terra nos mantém com os pés no chão,1,,209
+11.0,Terra e universo,Física,Baixa,"O Sistema Solar inclui planetas, luas e o Sol",1,,210
+12.0,Terra e universo,Física,Baixa,Um eclipse solar acontece quando a Lua fica entre o Sol e a Terra,1,,211
+13.0,Terra e universo,Física,Baixa,"Durante a noite, é possível ver muitas estrelas no céu escuro",1,,212
+14.0,Terra e universo,Física,Baixa,A Terra tem um tamanho maior do que a Lua,1,,213
+15.0,Terra e universo,Física,Baixa,A luz de estrelas muito distantes demoram mais para chegar até nós,1,,214
+16.0,Terra e universo,Física,Baixa,A Terra tem um campo magnético próprio,1,,215
+17.0,Terra e universo,Física,Baixa,Existem estrelas de tamanhos e cores diferentes no universo,1,,216
+18.0,Terra e universo,Física,Baixa,A inclinação da Terra ajuda a causar as estações do ano,1,,217
+19.0,Terra e universo,Física,Baixa,Nosso Sol faz parte de uma galáxia com muitas estrelas,1,,218
+20.0,Terra e universo,Física,Baixa,A luz do Sol leva alguns minutos para chegar na Terra,1,,219
+21.0,Terra e universo,Física,Baixa,O Sol gira em volta da Terra,0,,220
+22.0,Terra e universo,Física,Baixa,As Estrelas cadentes são estrelas se movendo rápido,0,,221
+23.0,Terra e universo,Física,Baixa,As estrelas estão todas à mesma distância da Terra,0,,222
+24.0,Terra e universo,Física,Baixa,Os planetas produzem a própria luz,0,,223
+25.0,Terra e universo,Física,Baixa,Não existe gravidade no vazio do espaço,0,,224
+26.0,Terra e universo,Física,Baixa,O Sol e a Lua têm o mesmo tamanho real,0,,225
+27.0,Terra e universo,Física,Baixa,A Terra se move em linha reta pelo espaço,0,,226
+28.0,Terra e universo,Física,Baixa,A gravidade só funciona onde tem ar,0,,227
+29.0,Terra e universo,Física,Baixa,As estrelas são feitas de água,0,,228
+30.0,Terra e universo,Física,Baixa,Podemos ver buracos negros facilmente no céu,0,,229
+31.0,Terra e universo,Física,Baixa,Cometas são apenas pedras grandes,0,,230
+32.0,Terra e universo,Física,Baixa,O céu é azul porque reflete a cor do mar,0,,231
+33.0,Terra e universo,Física,Baixa,O planeta Terra é plano,0,,232
+34.0,Terra e universo,Física,Baixa,A gravidade na Lua é mais forte que na Terra,0,,233
+35.0,Terra e universo,Física,Baixa,As marés só acontecem por causa do vento,0,,234
+36.0,Terra e universo,Física,Baixa,A luz viaja devagar no vazio do espaço,0,,235
+37.0,Terra e universo,Física,Baixa,Todos os planetas têm ar como a terra,0,,236
+38.0,Terra e universo,Física,Baixa,Os dias têm a mesma duração em qualquer planeta,0,,237
+39.0,Terra e universo,Física,Baixa,A superfície da Lua é cheia de rios e árvores,0,,238
+40.0,Terra e universo,Física,Baixa,Marte é um planeta de cor azul,0,,239
+1.0,,Controle,Baixa,Um ano normalmente é composto por doze meses,1,,240
+2.0,,Controle,Baixa,Cavalos são frequentemente usados para a prática de montaria,1,,241
+3.0,,Controle,Baixa,Cubos de gelo são comumente usados para gelar bebidas,1,,242
+4.0,,Controle,Baixa,Abelhas usam néctar de flores para fazer mel,1,,243
+5.0,,Controle,Baixa,O sol geralmente aparece no céu pela manhã,1,,244
+6.0,,Controle,Baixa,Uma semana é um período que tem sete dias,1,,245
+7.0,,Controle,Baixa,A cor do céu limpo durante o dia é azul,1,,246
+8.0,,Controle,Baixa,Gatos domésticos miam para interagir com pessoas,1,,247
+9.0,,Controle,Baixa,Anéis de casamento são frequentemente feitos de ouro puro,1,,248
+10.0,,Controle,Baixa,O Natal é uma festa comemorada no mês de dezembro,1,,249
+11.0,,Controle,Baixa,Muitos pássaros usam as suas asas para poder voar,1,,250
+12.0,,Controle,Baixa,O açúcar é conhecido por ter um sabor doce,1,,251
+13.0,,Controle,Baixa,O inverno é uma estação do ano geralmente fria,1,,252
+14.0,,Controle,Baixa,Elefantes são conhecidos como animais terrestres muito grandes,1,,253
+15.0,,Controle,Baixa,A madeira utilizada em móveis geralmente vem de árvores,1,,254
+16.0,,Controle,Baixa,Peixes são animais aquáticos que geralmente vivem na água,1,,255
+17.0,,Controle,Baixa,Diamantes lapidados são considerados pedras muito preciosas,1,,256
+18.0,,Controle,Baixa,A Páscoa é uma data que envolve ovos de chocolate,1,,257
+19.0,,Controle,Baixa,O leão é popularmente conhecido como o rei da selva,1,,258
+20.0,,Controle,Baixa,O vidro comum das janelas é geralmente transparente,1,,259
+21.0,,Controle,Baixa,O Dia das Mães é uma tradicional celebração familiar,1,,260
+22.0,,Controle,Baixa,Muitas espécies de macacos vivem no alto das árvores,1,,261
+23.0,,Controle,Baixa,O sal de cozinha tem um sabor caracteristicamente salgado,1,,262
+24.0,,Controle,Baixa,O outono é a estação do ano após o verão,1,,263
+25.0,,Controle,Baixa,Pinguins são aves adaptadas para viver em regiões geladas,1,,264
+26.0,,Controle,Baixa,A borracha natural é um material que vem da seringueira,1,,265
+27.0,,Controle,Baixa,O Ano Novo é uma celebração realizada em janeiro,1,,266
+28.0,,Controle,Baixa,Cobras se movem pelo chão rastejando rapidamente,1,,267
+29.0,,Controle,Baixa,A Terra é o planeta conhecido como o lugar onde vivemos,1,,268
+30.0,,Controle,Baixa,Coelhos são animais que gostam de comer cenouras,1,,269
+31.0,,Controle,Baixa,Golfinhos emitem diferentes sons para poder se comunicar,1,,270
+32.0,,Controle,Baixa,O vinagre comum é bastante usado para temperar saladas,1,,271
+33.0,,Controle,Baixa,A primavera é a estação do ano antes do verão,1,,272
+34.0,,Controle,Baixa,Ursos selvagens vivem em regiões de florestas e montanhas,1,,273
+35.0,,Controle,Baixa,Formigas operárias costumam andar organizadas em fileiras,1,,274
+36.0,,Controle,Baixa,O Halloween é uma festa popular celebrada em outubro,1,,275
+37.0,,Controle,Baixa,Sapos emitem um som característico chamado coaxar,1,,276
+38.0,,Controle,Baixa,Tigres são felinos que possuem listras escuras na pelagem,1,,277
+39.0,,Controle,Baixa,A África é reconhecida como um extenso continente,1,,278
+40.0,,Controle,Baixa,Zebras são animais conhecidos por terem listras pretas e brancas,1,,279
+41.0,,Controle,Baixa,O verão é uma estação do ano tipicamente quente,1,,280
+42.0,,Controle,Baixa,Lobos são animais que costumam viver em matilhas,1,,281
+43.0,,Controle,Baixa,A lã usada em roupas quentes vem de ovelhas,1,,282
+44.0,,Controle,Baixa,O Dia do Trabalho é um feriado celebrado em maio,1,,283
+45.0,,Controle,Baixa,Corujas são aves conhecidas por suas atividades noturnas,1,,284
+46.0,,Controle,Baixa,O papel usado pode ser coletado e depois reciclado,1,,285
+47.0,,Controle,Baixa,Aniversários são datas consideradas celebrações muito pessoais,1,,286
+48.0,,Controle,Baixa,O chocolate tradicional é um doce que vem do cacau,1,,287
+49.0,,Controle,Baixa,Feriados nacionais são geralmente estabelecidos como dias de folga,1,,288
+50.0,,Controle,Baixa,Esquilos são roedores que costumam guardar nozes para o inverno,1,,289
+51.0,,Controle,Baixa,Focas são animais que vivem em regiões polares e costeiras,1,,290
+52.0,,Controle,Baixa,Existem muitos países diferentes espalhados pela superfície da Terra,1,,291
+53.0,,Controle,Baixa,O pão caseiro é geralmente feito utilizando farinha de trigo,1,,292
+54.0,,Controle,Baixa,Cachorros costumam latir para se comunicar ou alertar,1,,293
+55.0,,Controle,Baixa,O ouro puro encontrado na natureza tem cor amarela,1,,294
+56.0,,Controle,Baixa,Muitos golfinhos vivem agrupados em oceanos e mares,1,,295
+57.0,,Controle,Baixa,Gatos demonstram contentamento quando começam a ronronar,1,,296
+58.0,,Controle,Baixa,O carvão mineral é uma rocha de cor preta,1,,297
+59.0,,Controle,Baixa,Cobras passam por um processo de troca de pele,1,,298
+60.0,,Controle,Baixa,Zebras selvagens vivem em grandes planícies chamadas savanas,1,,299
+61.0,,Controle,Baixa,Limões frescos geralmente têm um sabor bastante azedo,1,,300
+62.0,,Controle,Baixa,A primavera é a estação que vem depois do inverno,1,,301
+63.0,,Controle,Baixa,Alguns ursos hibernam durante os meses frios do inverno,1,,302
+64.0,,Controle,Baixa,O algodão natural é conhecido por ser muito macio,1,,303
+65.0,,Controle,Baixa,Aniversários são frequentemente comemorados com um bolo festivo,1,,304
+66.0,,Controle,Baixa,O plástico aquecido pode ser facilmente moldado em formas,1,,305
+67.0,,Controle,Baixa,Gorilas são primatas conhecidos por serem bastante fortes,1,,306
+68.0,,Controle,Baixa,Museus de história geralmente exibem artefatos antigos e valiosos,1,,307
+69.0,,Controle,Baixa,Esquilos são ágeis e costumam subir em árvores rapidamente,1,,308
+70.0,,Controle,Baixa,Leões emitem um som alto e forte chamado rugido,1,,309
+71.0,,Controle,Baixa,Patos são aves aquáticas que sabem nadar muito bem,1,,310
+72.0,,Controle,Baixa,Formigas são conhecidas por serem insetos muito trabalhadores,1,,311
+73.0,,Controle,Baixa,A maioria dos cachorros possui quatro patas para locomoção,1,,312
+74.0,,Controle,Baixa,A maioria das espécies de aves põe ovos em ninhos,1,,313
+75.0,,Controle,Baixa,As flores coloridas geralmente possuem pétalas delicadas,1,,314
+76.0,,Controle,Baixa,As árvores se fixam no solo através de suas raízes,1,,315
+77.0,,Controle,Baixa,Borboletas adultas são insetos que podem voar longas distâncias,1,,316
+78.0,,Controle,Baixa,Coelhos domésticos possuem orelhas compridas e muito sensíveis,1,,317
+79.0,,Controle,Baixa,Ovelhas são animais criados por sua lã peluda,1,,318
+80.0,,Controle,Baixa,Muitos passarinhos constroem ninhos para proteger seus filhotes,1,,319
+81.0,,Controle,Baixa,Vacas leiteiras são criadas para produzir o leite consumido,1,,320
+82.0,,Controle,Baixa,Cenouras são raízes comestíveis consideradas como vegetais comuns,1,,321
+83.0,,Controle,Baixa,Golfinhos são mamíferos marinhos conhecidos por serem inteligentes,1,,322
+84.0,,Controle,Baixa,Minhocas são animais que geralmente vivem embaixo do solo,1,,323
+85.0,,Controle,Baixa,Girafas são animais facilmente reconhecidas por seus pescoços longos,1,,324
+86.0,,Controle,Baixa,O trigo moído é o principal ingrediente para fazer pão,1,,325
+87.0,,Controle,Baixa,Muitas espécies de aranha são capazes de tecer uma teia,1,,326
+88.0,,Controle,Baixa,Gafanhotos são insetos conhecidos por seus grandes saltos,1,,327
+89.0,,Controle,Baixa,Morcegos são mamíferos voadores com hábitos geralmente noturnos,1,,328
+90.0,,Controle,Baixa,O fogo aceso produz luz e é muito quente,1,,329
+91.0,,Controle,Baixa,Chá é uma bebida que pode ser servida quente ou fria,1,,330
+92.0,,Controle,Baixa,O ar que respiramos é normalmente invisível aos nossos olhos,1,,331
+93.0,,Controle,Baixa,Refrigerante em garrafa geralmente borbulha bastante quando aberto,1,,332
+94.0,,Controle,Baixa,Canetas esferográficas são comumente usadas para escrever em papel,1,,333
+95.0,,Controle,Baixa,Tesouras escolares são usadas para cortar papel e cartolina,1,,334
+96.0,,Controle,Baixa,Blocos de gelo retirados do congelador são muito frios,1,,335
+97.0,,Controle,Baixa,"O vidro comum quebra facilmente, por isso é frágil",1,,336
+98.0,,Controle,Baixa,Uma cadeira é um móvel que serve para sentar,1,,337
+99.0,,Controle,Baixa,Copos de vidro ou plástico são usados para beber líquidos,1,,338
+100.0,,Controle,Baixa,Livros impressos contêm muitas páginas com textos ou imagens,1,,339
+101.0,,Controle,Baixa,Escadas fixas ou móveis servem para subir a lugares altos,1,,340
+102.0,,Controle,Baixa,Sabão em contato com a água geralmente produz espuma,1,,341
+103.0,,Controle,Baixa,Pneus de carro ou bicicleta são feitos de borracha resistente,1,,342
+104.0,,Controle,Baixa,Janelas de vidro são geralmente bastante transparentes à luz,1,,343
+105.0,,Controle,Baixa,Moedas de metal são usadas como forma de dinheiro,1,,344
+106.0,,Controle,Baixa,Luvas de tecido ou couro são usadas para proteger as mãos,1,,345
+107.0,,Controle,Baixa,Balões cheios de hélio podem flutuar no ar por um tempo,1,,346
+108.0,,Controle,Baixa,Chaveiros são pequenos objetos usados para segurar um conjunto de chaves,1,,347
+109.0,,Controle,Baixa,Espelhos planos e limpos refletem imagens com bastante nitidez,1,,348
+110.0,,Controle,Baixa,As pessoas precisam comer alimentos para poderem viver bem,1,,349
+111.0,,Controle,Baixa,O período do dia sempre vem antes do período da noite,1,,350
+112.0,,Controle,Baixa,"A noite, na ausência de luz artificial, é geralmente escura",1,,351
+113.0,,Controle,Baixa,As pessoas costumam dormir durante a noite para descansar,1,,352
+114.0,,Controle,Baixa,A maioria das pessoas em sociedade usa algum tipo de roupa,1,,353
+115.0,,Controle,Baixa,A chuva é formada por gotas de água que caem do céu,1,,354
+116.0,,Controle,Baixa,O vento forte pode balançar as árvores e levantar poeira,1,,355
+117.0,,Controle,Baixa,A voz humana é capaz de produzir uma variedade de sons,1,,356
+118.0,,Controle,Baixa,Bebês pequenos frequentemente choram para expressar suas necessidades,1,,357
+119.0,,Controle,Baixa,Crianças pequenas geralmente gostam muito de brincar juntas,1,,358
+120.0,,Controle,Baixa,Muitos adultos em idade ativa trabalham em diversas profissões,1,,359
+121.0,,Controle,Baixa,As estrelas distantes geralmente aparecem visíveis no céu à noite,1,,360
+122.0,,Controle,Baixa,A Lua é um astro que brilha no céu noturno,1,,361
+123.0,,Controle,Baixa,A fumaça de uma fogueira costuma subir em direção ao céu,1,,362
+124.0,,Controle,Baixa,O barulho excessivo em cidades pode ser bastante alto,1,,363
+125.0,,Controle,Baixa,Silêncio completo é a total ausência de qualquer som,1,,364
+126.0,,Controle,Baixa,"Para caminhar, as pessoas utilizam principalmente as suas pernas",1,,365
+127.0,,Controle,Baixa,Correr é uma forma de movimento geralmente mais rápida,1,,366
+128.0,,Controle,Baixa,Um sorriso espontâneo geralmente expressa um sentimento de alegria,1,,367
+129.0,,Controle,Baixa,As lágrimas que saem dos olhos têm sabor salgado,1,,368
+130.0,,Controle,Baixa,As férias escolares são um período esperado de descanso,1,,369
+131.0,,Controle,Baixa,Os fins de semana no Brasil geralmente têm dois dias,1,,370
+132.0,,Controle,Baixa,"O dia completo, incluindo noite, normalmente tem 24 horas",1,,371
+133.0,,Controle,Baixa,O relógio é um instrumento utilizado para marcar as horas,1,,372
+134.0,,Controle,Baixa,Anos bissextos ocorrem a cada quatro anos e têm um dia a mais,1,,373
+135.0,,Controle,Baixa,As quatro estações do ano se sucedem de forma cíclica,1,,374
+136.0,,Controle,Baixa,O presente é o tempo que está acontecendo neste agora,1,,375
+137.0,,Controle,Baixa,O passado é o tempo que já aconteceu e não volta,1,,376
+138.0,,Controle,Baixa,O futuro é o tempo que ainda vai acontecer adiante,1,,377
+139.0,,Controle,Baixa,Amanhã será o dia que vem logo depois de hoje,1,,378
+140.0,,Controle,Baixa,Ontem foi o dia que veio imediatamente antes de hoje,1,,379
+141.0,,Controle,Baixa,O Brasil é um país localizado na América do Sul,1,,380
+142.0,,Controle,Baixa,A capital de um país é geralmente uma cidade importante,1,,381
+143.0,,Controle,Baixa,Oceanos imensos cobrem a maior parte da superfície da Terra,1,,382
+144.0,,Controle,Baixa,Aeroportos são grandes locais que servem para pouso de aviões,1,,383
+145.0,,Controle,Baixa,Restaurantes são estabelecimentos comerciais que servem variadas comidas,1,,384
+146.0,,Controle,Baixa,Hospitais bem equipados tratam de pessoas doentes ou feridas,1,,385
+147.0,,Controle,Baixa,Escolas são instituições de ensino que educam crianças e jovens,1,,386
+148.0,,Controle,Baixa,Livrarias são lojas especializadas que vendem diferentes tipos de livros,1,,387
+149.0,,Controle,Baixa,Ruas e avenidas são vias usadas para o transporte de veículos,1,,388
+150.0,,Controle,Baixa,Sapos são animais que conseguem pular distâncias bem grandes,1,,389
+151.0,,Controle,Baixa,Cães são animais conhecidos por botarem ovos coloridos,0,,390
+152.0,,Controle,Baixa,O papel usado em livros é geralmente feito de metal,0,,391
+153.0,,Controle,Baixa,O Natal é uma festa celebrada para marcar o fim do verão,0,,392
+154.0,,Controle,Baixa,Todos os tipos de pássaros são completamente incapazes de voar,0,,393
+155.0,,Controle,Baixa,As abelhas são insetos conhecidos por produzir fios de seda,0,,394
+156.0,,Controle,Baixa,Cavalos em fazendas fazem o som característico de mugir,0,,395
+157.0,,Controle,Baixa,"O Ano Novo é uma festa comemorada no meio do ano, em julho",0,,396
+158.0,,Controle,Baixa,Tubarões são considerados animais terrestres que vivem em árvores,0,,397
+159.0,,Controle,Baixa,O algodão usado em roupas geralmente vem de animais peludos,0,,398
+160.0,,Controle,Baixa,A Páscoa é uma celebração que envolve o uso de fantasias assustadoras,0,,399
+161.0,,Controle,Baixa,Elefantes são grandes animais conhecidos pela sua capacidade de voar,0,,400
+162.0,,Controle,Baixa,O vidro utilizado em janelas é geralmente um material opaco,0,,401
+163.0,,Controle,Baixa,O Dia das Mães é uma data comemorada sempre no final do ano,0,,402
+164.0,,Controle,Baixa,Macacos são animais que costumam viver no fundo do mar,0,,403
+165.0,,Controle,Baixa,O sal de cozinha é conhecido por ter um sabor muito doce,0,,404
+166.0,,Controle,Baixa,O outono é a estação do ano que vem antes do verão,0,,405
+167.0,,Controle,Baixa,Pinguins são aves que preferem viver em desertos muito quentes,0,,406
+168.0,,Controle,Baixa,A borracha de pneus é um material comestível e muito saboroso,0,,407
+169.0,,Controle,Baixa,O Halloween é uma festa popular celebrada no mês de janeiro,0,,408
+170.0,,Controle,Baixa,Sapos são animais conhecidos por emitirem latidos altos,0,,409
+171.0,,Controle,Baixa,O carvão mineral é conhecido por ser muito macio e flexível,0,,410
+172.0,,Controle,Baixa,O Dia do Trabalho é um feriado celebrado usualmente em dezembro,0,,411
+173.0,,Controle,Baixa,Tigres são animais conhecidos por não possuírem listras,0,,412
+174.0,,Controle,Baixa,Gasolina de carro é um combustível extraído de plantas como a laranjeira,0,,413
+175.0,,Controle,Baixa,Zebras são facilmente reconhecidas pelas suas manchas coloridas,0,,414
+176.0,,Controle,Baixa,O mel que consumimos é um produto feito por formigas,0,,415
+177.0,,Controle,Baixa,O verão é uma estação do ano caracterizada por ser fria,0,,416
+178.0,,Controle,Baixa,Lobos são animais selvagens que preferem viver completamente solitários,0,,417
+179.0,,Controle,Baixa,A lã usada em agasalhos normalmente vem de escamas de peixes,0,,418
+180.0,,Controle,Baixa,O Dia dos Pais é uma data comemorada no início do ano,0,,419
+181.0,,Controle,Baixa,Corujas são aves que têm o hábito de dormir à noite,0,,420
+182.0,,Controle,Baixa,O papel comum dos cadernos é um material totalmente indestrutível,0,,421
+183.0,,Controle,Baixa,Aniversários de pessoas são sempre feriados nacionais para todos,0,,422
+184.0,,Controle,Baixa,Chimpanzés são animais conhecidos por construírem grandes ninhos no mar,0,,423
+185.0,,Controle,Baixa,O chocolate que comemos é um doce que vem de pedras,0,,424
+186.0,,Controle,Baixa,Os feriados nacionais ocorrem sempre em dias úteis da semana,0,,425
+187.0,,Controle,Baixa,Esquilos são roedores que conseguem nadar de forma muito rápida,0,,426
+188.0,,Controle,Baixa,As borboletas são insetos conhecidos por produzir muita cera,0,,427
+189.0,,Controle,Baixa,Leões são grandes animais que comem apenas folhas e plantas,0,,428
+190.0,,Controle,Baixa,O Natal é uma celebração comemorada tradicionalmente no mês de agosto,0,,429
+191.0,,Controle,Baixa,Todos os tipos de pássaros constroem seus ninhos no chão,0,,430
+192.0,,Controle,Baixa,Cavalos são animais que fazem o som de miar frequentemente,0,,431
+193.0,,Controle,Baixa,A abelha-rainha é a principal responsável por produzir todo o mel,0,,432
+194.0,,Controle,Baixa,Ursos polares são animais que vivem em desertos muito quentes,0,,433
+195.0,,Controle,Baixa,O açúcar refinado é conhecido por ter um sabor muito amargo,0,,434
+196.0,,Controle,Baixa,O Dia das Crianças no Brasil é comemorado em janeiro,0,,435
+197.0,,Controle,Baixa,Pinguins são aves que vivem tipicamente em selvas tropicais quentes,0,,436
+198.0,,Controle,Baixa,A borracha usada em pneus geralmente vem de animais marinhos,0,,437
+199.0,,Controle,Baixa,O Halloween é uma festa popular que ocorre em 1º de abril,0,,438
+200.0,,Controle,Baixa,Sapos são animais que emitem sons como latidos e miados,0,,439
+201.0,,Controle,Baixa,O carvão é uma substância que costuma flutuar na água como uma boia,0,,440
+202.0,,Controle,Baixa,O Dia do Trabalho é um feriado importante celebrado em agosto,0,,441
+203.0,,Controle,Baixa,Tigres são animais conhecidos por se alimentarem exclusivamente de frutas,0,,442
+204.0,,Controle,Baixa,O óleo de cozinha comum é conhecido por ser duro como pedra,0,,443
+205.0,,Controle,Baixa,"As zebras selvagens são animais completamente pretos, sem nenhuma listra",0,,444
+206.0,,Controle,Baixa,O mel adocicado é um alimento produzido naturalmente por vespas,0,,445
+207.0,,Controle,Baixa,O verão é uma estação climática chuvosa em todas as partes do mundo,0,,446
+208.0,,Controle,Baixa,Lobos selvagens vivem em tocas subterrâneas durante o ano todo,0,,447
+209.0,,Controle,Baixa,A lã macia e quente geralmente vem da pelagem de coelhos,0,,448
+210.0,,Controle,Baixa,O Dia dos Pais no Brasil é comemorado oficialmente em setembro,0,,449
+211.0,,Controle,Baixa,Chimpanzés são primatas que pertencem ao grupo das aves voadoras,0,,450
+212.0,,Controle,Baixa,O chocolate tradicional é um doce feito a partir de algas marinhas,0,,451
+213.0,,Controle,Baixa,Feriados nacionais são considerados dias úteis de trabalho normal,0,,452
+214.0,,Controle,Baixa,Girafas são conhecidas por serem animais que se movem rastejando,0,,453
+215.0,,Controle,Baixa,Sapatos confortáveis são usados principalmente para proteger bem as mãos,0,,454
+216.0,,Controle,Baixa,Pinguins são aves que vivem exclusivamente na região do Ártico,0,,455
+217.0,,Controle,Baixa,Relógios de pulso modernos são usados principalmente para cozinhar alimentos,0,,456
+218.0,,Controle,Baixa,Crocodilos são animais dóceis que comem apenas capim e folhas,0,,457
+219.0,,Controle,Baixa,O papel sulfite comum é feito utilizando vidro derretido e resfriado,0,,458
+220.0,,Controle,Baixa,Canetas esferográficas são usadas principalmente para se comer sopa quente,0,,459
+221.0,,Controle,Baixa,Peixes são animais que costumam construir seus ninhos em árvores,0,,460
+222.0,,Controle,Baixa,Galinhas poedeiras são criadas porque produzem fios de lã macia,0,,461
+223.0,,Controle,Baixa,As cobras são animais conhecidos por terem duas pequenas pernas,0,,462
+224.0,,Controle,Baixa,Aranhas domésticas são famosas porque põem ovos feitos de ouro,0,,463
+225.0,,Controle,Baixa,Borboletas adultas se locomovem principalmente rastejando pelo chão,0,,464
+226.0,,Controle,Baixa,Formigas são pequenos animais que podem atingir tamanhos gigantescos,0,,465
+227.0,,Controle,Baixa,Pássaros são conhecidos por terem uma boca cheia de pelos macios,0,,466
+228.0,,Controle,Baixa,Coelhos domésticos são animais que comem apenas pedaços de carne,0,,467
+229.0,,Controle,Baixa,Ratos comuns são pequenos animais que conseguem voar rapidamente,0,,468
+230.0,,Controle,Baixa,Gatos emitem um som alto e forte chamado coaxar,0,,469
+231.0,,Controle,Baixa,Árvores de grande porte costumam mudar de lugar durante a noite,0,,470
+232.0,,Controle,Baixa,As árvores em crescimento direcionam suas raízes sempre para baixo,0,,471
+233.0,,Controle,Baixa,Todas as flores coloridas normalmente cheiram forte a alho fresco,0,,472
+234.0,,Controle,Baixa,Cogumelos comestíveis são frutas saborosas que crescem em árvores altas,0,,473
+235.0,,Controle,Baixa,"Minhocas possuem olhos grandes, redondos e muito brilhantes",0,,474
+236.0,,Controle,Baixa,As girafas são animais conhecidos por terem orelhas bem curtas,0,,475
+237.0,,Controle,Baixa,O arroz que comemos geralmente cresce no alto de árvores altas,0,,476
+238.0,,Controle,Baixa,Os peixes são animais aquáticos que geralmente têm pelos macios,0,,477
+239.0,,Controle,Baixa,Macacos são animais aquáticos que vivem nadando em grandes rios,0,,478
+240.0,,Controle,Baixa,Abelhas são insetos que têm o hábito de comer madeira,0,,479
+241.0,,Controle,Baixa,O sol que vemos no céu é de uma cor azulada,0,,480
+242.0,,Controle,Baixa,"A água da torneira, quando aquecida, é geralmente mais quente que fogo",0,,481
+243.0,,Controle,Baixa,O fogo de uma fogueira é conhecido por ser muito gelado,0,,482
+244.0,,Controle,Baixa,Cadeiras confortáveis para sentar são geralmente feitas de nuvens,0,,483
+245.0,,Controle,Baixa,Canetas coloridas servem como ferramenta principal para regar diversas plantas,0,,484
+246.0,,Controle,Baixa,Tesouras com ponta são usadas por crianças para escovar os dentes,0,,485
+247.0,,Controle,Baixa,Lâmpadas acesas em casa funcionam melhor se estiverem totalmente molhadas,0,,486
+248.0,,Controle,Baixa,Martelos de carpinteiro são ferramentas feitas de algodão muito macio,0,,487
+249.0,,Controle,Baixa,Mesas de jantar são móveis usados para as pessoas dormirem debaixo,0,,488
+250.0,,Controle,Baixa,Copos de plástico ou vidro são usados para se calçar os pés,0,,489
+251.0,,Controle,Baixa,Livros com muitas páginas são considerados alimentos bastante comestíveis,0,,490
+252.0,,Controle,Baixa,Escadas de madeira ou metal são usadas por pessoas para mergulhar,0,,491
+253.0,,Controle,Baixa,O sabão de banho é um produto feito para endurecer a pele,0,,492
+254.0,,Controle,Baixa,Carros populares são veículos movidos exclusivamente pela força do vento,0,,493
+255.0,,Controle,Baixa,Janelas de vidro em casas são usadas para se guardar objetos,0,,494
+256.0,,Controle,Baixa,Moedas utilizadas como dinheiro são normalmente feitas de papel fino,0,,495
+257.0,,Controle,Baixa,Luvas de inverno ou de cozinha são usadas para proteger os pés,0,,496
+258.0,,Controle,Baixa,Balões de festa cheios de ar sempre afundam rapidamente na água,0,,497
+259.0,,Controle,Baixa,Chaves de metal para portas são usadas por pescadores para pescar,0,,498
+260.0,,Controle,Baixa,Espelhos comuns de banheiro tornam as coisas totalmente invisíveis,0,,499
+261.0,,Controle,Baixa,As pessoas conseguem voar alto apenas batendo os próprios braços,0,,500
+262.0,,Controle,Baixa,"O sol, nossa estrela principal, costuma nascer durante a noite escura",0,,501
+263.0,,Controle,Baixa,A sombra projetada de um objeto é sempre mais clara que a luz,0,,502
+264.0,,Controle,Baixa,As pessoas saudáveis normalmente dormem mantendo os olhos bem abertos,0,,503
+265.0,,Controle,Baixa,A maioria das pessoas costuma usar sapatos para proteger as mãos,0,,504
+266.0,,Controle,Baixa,A chuva forte de verão é água que sobe para o céu,0,,505
+267.0,,Controle,Baixa,O vento forte que sopra é sempre um fenômeno completamente silencioso,0,,506
+268.0,,Controle,Baixa,A voz humana normal é um som totalmente inaudível aos ouvidos,0,,507
+269.0,,Controle,Baixa,Bebês recém-nascidos já conseguem falar fluentemente algumas palavras,0,,508
+270.0,,Controle,Baixa,Crianças pequenas são responsáveis por construir grandes casas e edifícios,0,,509
+271.0,,Controle,Baixa,Adultos formados frequentam a escola primária todos os dias da semana,0,,510
+272.0,,Controle,Baixa,As estrelas que vemos no céu noturno têm formato de cubos,0,,511
+273.0,,Controle,Baixa,"A Lua, satélite da Terra, é um astro feito de queijo",0,,512
+274.0,,Controle,Baixa,A fumaça escura de queimadas geralmente afunda em direção ao chão,0,,513
+275.0,,Controle,Baixa,Todo tipo de barulho alto é sempre muito calmante e relaxante,0,,514
+276.0,,Controle,Baixa,Silêncio absoluto significa a presença de muitos e variados sons,0,,515
+277.0,,Controle,Baixa,"Para caminhar longas distâncias, as pessoas usam principalmente os braços",0,,516
+278.0,,Controle,Baixa,Correr longas distâncias é uma forma de exercício muito lento,0,,517
+279.0,,Controle,Baixa,O choro com muitas lágrimas geralmente expressa um sentimento de alegria,0,,518
+280.0,,Controle,Baixa,O suor que eliminamos do corpo tem um sabor adocicado,0,,519
+281.0,,Controle,Baixa,As férias de verão são um período de trabalho muito intenso,0,,520
+282.0,,Controle,Baixa,Os fins de semana no calendário geralmente têm cinco dias seguidos,0,,521
+283.0,,Controle,Baixa,Um dia completo na Terra tem a duração de dez horas,0,,522
+284.0,,Controle,Baixa,O relógio de parede ou pulso marca as diferentes estações do ano,0,,523
+285.0,,Controle,Baixa,"Anos bissextos, que ocorrem periodicamente, têm sempre menos um dia",0,,524
+286.0,,Controle,Baixa,As quatro estações do ano são idênticas em todas as partes do planeta,0,,525
+287.0,,Controle,Baixa,O tempo presente é aquele que ainda vai acontecer no futuro,0,,526
+288.0,,Controle,Baixa,O tempo passado é aquele que ainda está acontecendo neste momento,0,,527
+289.0,,Controle,Baixa,O tempo futuro é aquele que já aconteceu há muitos anos,0,,528
+290.0,,Controle,Baixa,O dia de amanhã é o dia que veio antes de ontem,0,,529
+291.0,,Controle,Baixa,O dia de ontem é o dia que virá depois de amanhã,0,,530
+292.0,,Controle,Baixa,O Brasil é conhecido por ser uma pequena ilha localizada na Europa,0,,531
+293.0,,Controle,Baixa,As capitais dos países são sempre consideradas pequenas e simples vilas,0,,532
+294.0,,Controle,Baixa,"O Sol, nossa estrela, costuma girar em torno da Lua todos os dias",0,,533
+295.0,,Controle,Baixa,Aeroportos modernos são locais especialmente construídos para as pessoas nadarem,0,,534
+296.0,,Controle,Baixa,Restaurantes sofisticados são estabelecimentos que geralmente vendem carros novos,0,,535
+297.0,,Controle,Baixa,Hospitais são grandes lugares construídos para as pessoas se divertirem,0,,536
+298.0,,Controle,Baixa,Escolas e colégios são lugares destinados para as pessoas dormirem,0,,537
+299.0,,Controle,Baixa,Livrarias populares são lojas especializadas que vendem muitos carros usados,0,,538
+300.0,,Controle,Baixa,Ruas e estradas são vias usadas para se plantar grandes árvores,0,,539
+,,MatCon,,"A palavra Casa, tem mais sílabas que Janela",0,0.0,540
+,,MatCon,,"A palavra FITA, tem menos sílabas que presente",1,0.0,541
+,,MatCon,,"A palavra Cachorro, tem mais sílabas que Cadeira",0,0.0,542
+,,MatCon,,"A palavra Estrela, tem mais sílabas que Terra",1,0.0,543
+,,MatCon,,"A palavra babá, tem menos sílabas que janela",1,0.0,544
+,,MatCon,,"A palavra livro, tem mais sílabas que caderno",0,0.0,545
+,,MatCon,,"A palavra Lápis, tem menos sílabas que menina",1,0.0,546
+,,MatCon,,"A palavra Alegria, tem menos sílabas que papel",0,0.0,547
+,,MatCon,,"A palavra Computador, tem mais sílabas que Telefone",0,0.0,548
+,,MatCon,,"A palavra cola, tem menos sílabas que a palavra Emprego",1,0.0,549
+,,MatCon,,"A palavra História, tem menos sílabas que Relógio",0,0.0,550
+,,MatCon,,"A palavra Amigo, tem mais sílabas que a palavra Amor",1,0.0,551
+,,MatCon,,"A palavra Elefante, tem menos sílabas que a palavra Girafa",0,0.0,552
+,,MatCon,,"A palavra Rápido, tem menos sílabas que vento",0,0.0,553
+,,MatCon,,"A palavra Coração, tem menos sílabas que pilha",0,0.0,554
+,,MatCon,,"A palavra Criativo, tem menos sílabas que irmão",0,0.0,555
+,,MatCon,,"A palavra Professor, tem menos sílabas que Aluno",0,0.0,556
+,,MatCon,,"A palavra Colher, tem mais sílabas que SAPO",0,0.0,557
+,,MatCon,,"A palavra Sol, tem menos sílabas que protetor",1,0.0,558
+,,MatCon,,"A palavra Dedo, tem mais sílabas que dado",0,0.0,559
+,,MatCon,,"A palavra RALO, tem menos sílabas que ARVORE",1,0.0,560
+,,MatCon,,"A palavra Gato, tem mais sílabas que Salada",0,0.0,561
+,,MatCon,,"A palavra ARCO-ÍRIS, tem mais sílabas que Nuvem",1,0.0,562
+,,MatCon,,"A palavra Amarelo, tem menos sílabas que Verde",0,0.0,563
+,,MatCon,,"A palavra Laranja, tem mais sílabas que Lilás",1,0.0,564
+,,MatCon,,"A palavra Doce, tem menos sílabas que Anjo",0,0.0,565
+,,MatCon,,"A palavra Namorado, tem mais sílabas que Casa",1,0.0,566
+,,MatCon,,"A palavra Véu, tem menos sílabas que Catedral",1,0.0,567
+,,MatCon,,"A palavra Mar, tem mais sílabas que Peixe",0,0.0,568
+,,MatCon,,"A palavra Palestra, tem menos sílabas que Lua",0,0.0,569
+,,MatCon,,"A palavra Banana, tem mais sílabas que Ferramenta",0,0.0,570
+,,MatCon,,"A palavra Boneca, tem a mais sílabas que Ilha",1,0.0,571
+,,MatCon,,"A palavra Brilhante, tem mais sílabas que brilho",1,0.0,572
+,,MatCon,,"A palavra Computador, tem mais sílabas que Tinta",1,0.0,573
+,,MatCon,,"A palavra pato, tem mais sílabas que bola",0,0.0,574
+,,MatCon,,"A palavra gato, tem mais sílabas que mesa",0,0.0,575
+,,MatCon,,"A palavra janela, tem mais sílabas que porta",1,0.0,576
+,,MatCon,,"A palavra família, tem mais sílabas que fé",1,0.0,577
+,,MatCon,,"A palavra sol, tem mais sílabas que pai",0,0.0,578
+,,MatCon,,"A palavra cachorro, tem mais sílabas que carro",1,0.0,579
+,,MatCon,,"A palavra lasanha, tem mais sílabas que mãe",1,0.0,580
+,,MatCon,,"A palavra menina, tem menos sílabas que menino",0,0.0,581
+,,MatCon,,"A palavra Jabuti, tem mais sílabas que Rio",1,0.0,582
+,,MatCon,,"A palavra arroz, tem menos sílabas que céu",0,0.0,583
+,,MatCon,,"A palavra Morango, tem mais sílabas que Copo",1,0.0,584
+,,MatCon,,"A palavra Violão, tem mais sílabas que Flor",1,0.0,585
+,,MatCon,,"A palavra Rato, tem mais sílabas que Jacaré",0,0.0,586
+,,MatCon,,"A palavra Barco, tem menos sílabas que Faca",0,0.0,587
+,,MatCon,,"A palavra televisão, tem mais sílabas que rádio",1,0.0,588
+,,MatCon,,"A palavra Bolacha, tem mais sílabas que Urso",1,0.0,589
+,,MatCon,,"A palavra floresta, tem mais sílabas que rosa",1,0.0,590
+,,MatCon,,"A palavra festejar, tem menos sílabas que limão",0,0.0,591
+,,MatCon,,"A palavra Pente, tem mais sílabas que Armário",0,0.0,592
+,,MatCon,,"A palavra vovó, tem menos sílabas que madrinha",1,0.0,593
+,,MatCon,,"A palavra Caminhão, tem mais sílabas que Moto",1,0.0,594
+,,MatCon,,"A palavra Cabelo, tem mais sílabas que unha",1,0.0,595
+,,MatCon,,"A palavra COCO, tem mais sílabas que Bombom",0,0.0,596
+,,MatCon,,"A palavra Açaí, tem mais sílabas que farinha",0,0.0,597
+,,MatCon,,"A palavra Academia, tem menos sílabas que Luva",0,0.0,598
+,,MatCon,,"A palavra açúcar, tem menos sílabas que sal",0,0.0,599
+,,MatCon,,"A palavra Chocolate, tem mais sílabas que fruta",1,0.0,600
+,,MatCon,,"A palavra felicidade, tem mais sílabasque triste",1,0.0,601
+,,MatCon,,"A palavra Pia, tem mais sílabas e Caneta",0,0.0,602
+,,MatCon,,"A palavra Amor, tem menos sílabas que presente",1,0.0,603
+,,MatCon,,"A palavra Baleia, tem menos sílabas que AGUA",0,0.0,604
+,,MatCon,,"A palavra Hora, tem mais sílabas que RELÓGIO",0,0.0,605
+,,MatCon,,"A palavra Melancia, tem mais sílabas que Uva",1,0.0,606
+,,MatCon,,"A palavra Mochila, tem mais sílabas que Lápis",1,0.0,607
+,,MatCon,,"A palavra Acerola, tem menos sílabas que Fogo",0,0.0,608
+,,MatCon,,"A palavra Tapioca, tem mais silabas que ovo",1,0.0,609
+,,MatCon,,"A palavra Janeiro, tem mais sílabas que Março",1,0.0,610
+,,MatCon,,"A palavra Pianista, tem menos sílabas que CIFRA",0,0.0,611
+,,MatCon,,"A palavra Cofre, tem mais sílabas que Banco",0,0.0,612
+,,MatCon,,"A palavra Cebola, tem mais sílabas que Alho",1,0.0,613
+,,MatCon,,"A palavra estrela, tem mais sílabas que Natação",0,0.0,614
+,,MatCon,,"A palavra Médico, tem mais sílabas que Arquiteto",0,0.0,615
+,,MatCon,,"A palavra chave, tem mais sílabas que fechadura",0,0.0,616
+,,MatCon,,"A palavra Jogo, tem mais sílabas que Luta",0,0.0,617
+,,MatCon,,"A palavra Aliança, tem mais sílabas que Pipa",1,0.0,618
+,,MatCon,,"A palavra Moça, tem mais sílabas que Caneca",0,0.0,619
+,,MatCon,,"A palavra Janela, tem mais sílabas que Sol",1,0.0,620
+,,MatCon,,"A palavra Pão, tem mais sílabas que Morango",0,0.0,621
+,,MatCon,,"A palavra Roupa, tem menos sílabas que Vestido",1,0.0,622
+,,MatCon,,"A palavra Ovo, tem mais sílabas que Batata",0,0.0,623
+,,MatCon,,"A palavra Nuvem, tem mais sílabas que Céu",1,0.0,624
+,,MatCon,,"A palavra Mel, tem menos sílabas que Floresta",1,0.0,625
+,,MatCon,,"A palavra Cavalo, tem mais sílabas que Leão",1,0.0,626
+,,MatCon,,"A palavra Tigre, tem menos sílabas que Borboleta",1,0.0,627
+,,MatCon,,"A palavra Sapo, tem mais sílabas que Elefante",0,0.0,628
+,,MatCon,,"A palavra Caminhão, tem mais sílabas que Rua",1,0.0,629
+,,MatCon,,"A palavra Areia, tem mais sílabas que Padaria",0,0.0,630
+,,MatCon,,"A palavra Leite, tem mais sílabas que Abacate",0,0.0,631
+,,MatCon,,"A palavra Tesoura, tem mais sílabas que Dente",1,0.0,632
+,,MatCon,,"A palavra Grama, tem menos sílabas que Mato",0,0.0,633
+,,MatCon,,"A palavra Gelo, tem mais sílabas que Chocolate",0,0.0,634
+,,MatCon,,"A palavra Casa, tem menos sílabas que Castelo",1,0.0,635
+,,MatCon,,"A palavra Papel, tem mais sílabas que Dinheiro",0,0.0,636
+,,MatCon,,"A palavra Sal, tem menos sílabas que Pimenta",1,0.0,637
+,,MatCon,,"A palavra Anel, tem mais sílabas que Joalheiria",0,0.0,638
+,,MatCon,,"A palavra Abril, tem menos sílabas que Fevereiro",1,0.0,639
+,,MatCon,,"A palavra Roda, tem mais sílabas que Volante",0,0.0,640
+,,MatCon,,"A palavra Dado, tem menos sílabas que Sapato",1,0.0,641
+,,MatCon,,"A palavra Chave, tem menos sílabas que Corrente",1,0.0,642
+,,MatCon,,"A palavra Chão, tem mais sílabas que Cidade",0,0.0,643
+,,MatCon,,"A palavra Gelado, tem mais sílabas que Frio",1,0.0,644
+,,MatCon,,"A palavra Cama, tem menos sílabas que Travesseiro",1,0.0,645
+,,MatCon,,"A palavra Boneco, tem mais sílabas que Bala",1,0.0,646
+,,MatCon,,"A palavra Luva, tem mais sílabas que Guarda-chuva",0,0.0,647
+,,MatCon,,"A palavra Laranja, tem menos sílabas que AÇAÍ",0,0.0,648
+,,MatCon,,"A palavra Sorvete, tem mais sílabas que pão",1,0.0,649
+,,MatCon,,"A palavra fogueira, tem menos sílabas que fogo",0,0.0,650
+,,MatCon,,"A palavra Telefone, tem mais sílabas que Rádio",1,0.0,651
+,,MatCon,,"A palavra Revista, tem menos sílabas que copo",0,0.0,652
+,,MatCon,,"A palavra Carteira, tem mais sílabas que Bolsa",1,0.0,653
+,,MatCon,,"A palavra Boca, tem mais sílabas que Relógio",0,0.0,654
+,,MatCon,,"A palavra Almofada, tem mais sílabas que Tênis",1,0.0,655
+,,MatCon,,"A palavra Mesa, tem mais sílabas que Tangerina",0,0.0,656
+,,MatCon,,"A palavra Ninho, tem menos sílabas que Passarinho",1,0.0,657
+,,MatCon,,"A palavra Zebra, tem mais sílabas que Cavalaria",0,0.0,658
+,,MatCon,,"A palavra Galo, tem menos sílabas que Peixe-boi",1,0.0,659
+,,MatCon,,"A palavra Caneta, tem mais sílabas que DADO",1,0.0,660
+,,MatCon,,"A palavra Casamento , tem menos sílabas que anel",0,0.0,661
+,,MatCon,,"A palavra Prato, tem mais sílabas que GELADEIRA",0,0.0,662
+,,MatCon,,"A palavra Jornal, tem menos sílabas que Televisão",1,0.0,663
+,,MatCon,,"A palavra Universidade, tem mais sílabas que Lápis",1,0.0,664
+,,MatCon,,"A palavra Abacaxi, tem menos sílabas que Baú",0,0.0,665
+,,MatCon,,"A palavra Cobra, tem mais sílabas que Lagarto",0,0.0,666
+,,MatCon,,"A palavra Cinema, tem mais sílabas que Filme",1,0.0,667
+,,MatCon,,"A palavra Brinquedo, tem mais sílabas que Bola",1,0.0,668
+,,MatCon,,"A palavra Cenoura, tem menos sílabas que faca",0,0.0,669
+,,MatCon,,"A palavra Estudo, tem mais sílabas que Laboratório",0,0.0,670
+,,MatCon,,"A palavra Música, tem mais sílabas que Dança",1,0.0,671
+,,MatCon,,"A palavra Lente, tem menos sílabas que Construção",1,0.0,672
+,,MatCon,,"A palavra Toalha, tem mais sílabas que Pia",1,0.0,673
+,,MatCon,,"A palavra Pasta, tem mais sílabas que Escritório",0,0.0,674
+,,MatCon,,"A palavra Sabonete, tem mais sílabas que água",1,0.0,675
+,,MatCon,,"A palavra Banheira, tem menos sílabas que Vaso",0,0.0,676
+,,MatCon,,"A palavra Dente, tem mais SÍLABAS que Dentadura",0,0.0,677
+,,MatCon,,"A palavra Tapete, tem mais sílabas que mesa",1,0.0,678
+,,MatCon,,"A palavra Calça, tem mais sílabas que sapateiro",0,0.0,679
+,,MatCon,,"A palavra Chuveiro, tem mais sílabas que Sabão",1,0.0,680
+,,MatCon,,"A palavra Tinta, tem menos sílabas que Calendário",1,0.0,681
+,,MatCon,,"A palavra Garrafa, tem menos sílabas que jogo",0,0.0,682
+,,MatCon,,"A palavra Mae, tem menos sílabas que Estojo",1,0.0,683
+,,MatCon,,"A palavra Panela, tem menos SÍLABAS que CHÁ",0,0.0,684
+,,MatCon,,"A palavra moto, tem mais sílabas que Telefone",0,0.0,685
+,,MatCon,,"A palavra Salada, tem mais sílabas que Sal",1,0.0,686
+,,MatCon,,"A palavra Caixa, tem mais sílabas que Gaveta",0,0.0,687
+,,MatCon,,"A palavra Escadaria, tem mais sílabas que Chão",1,0.0,688
+,,MatCon,,"A palavra Ave, tem mais sílabas que PINGUIM",0,0.0,689
+,,MatCon,,"A palavra Bolacha, tem menos sílabas que cacau",0,0.0,690
+,,MatCon,,"A palavra Casaco, tem mais sílabas que Capa",1,0.0,691
+,,MatCon,,"A palavra Peixe, tem menos sílabas que Camarão",1,0.0,692
+,,MatCon,,"A palavra Jardim, tem mais sílabas que Flor",1,0.0,693
+,,MatCon,,"A palavra Fruta, tem menos sílabas que Verdura",1,0.0,694
+,,MatCon,,"A palavra Suco, tem mais sílabas que Refrigerante",0,0.0,695
+,,MatCon,,"A palavra Leão, tem menos sílabas que rato",0,0.0,696
+,,MatCon,,"A palavra Lanterna, tem mais sílabas que fogo",1,0.0,697
+,,MatCon,,"A palavra GARAGEM, tem menos sílabas que sala",0,0.0,698
+,,MatCon,,"A palavra GIRAFA, tem mais sílabas que Pato",1,0.0,699
+,,MatCon,,"A palavra TATU, tem menos SÍLABAS que Rosa",1,0.0,700
+,,MatCon,,"A palavra Fantasma, tem mais sílabas que filme",1,0.0,701
+,,MatCon,,"A palavra Lobo, tem menos sílabas que Papagaio",0,0.0,702
+,,MatCon,,"A palavra Vaca, tem mais sílabas FORMIGA",0,0.0,703
+,,MatCon,,"A palavra CAJÚ, tem mais SÍLABAS que Acerola",0,0.0,704
+,,MatCon,,"A palavra Convento, tem mais sílabas que Papa",1,0.0,705
+,,MatCon,,"A palavra PERFUME, tem mais SÍLABAS que Meia",1,0.0,706
+,,MatCon,,"A palavra ABAJUR, tem mais SÍLABAS que Ventilador",0,0.0,707
+,,MatCon,,"A palavra Tesoura, tem menos sílabas que Faca",0,0.0,708
+,,MatCon,,"A palavra RODA, tem menos sílabas que FUTEBOL",1,0.0,709
+,,MatCon,,"A palavra Tigela, tem mais sílabas que Prato",1,0.0,710
+,,MatCon,,"A palavra OLIMPÍADA, tem menos sílabas que TROFÉU",0,0.0,711
+,,MatCon,,"A palavra lápis, tem mais sílabas que Cartolina",0,0.0,712
+,,MatCon,,"A palavra TINTA, tem menos sílabas que Pintura",1,0.0,713
+,,MatCon,,"A palavra Salgado, tem mais sílabas que BOLO",1,0.0,714
+,,MatCon,,"A palavra Café, tem mais sílabas que Cereja",0,0.0,715
+,,MatCon,,"A palavra Vidro, tem mais sílabas que Palmito",0,0.0,716
+,,MatCon,,"A palavra Baleia, tem menos sílabas que Balão",0,0.0,717
+,,MatCon,,"A palavra Montanha, tem mais sílabas que Terra",1,0.0,718
+,,MatCon,,"A palavra Sombra, tem mais sílabas que Luz",1,0.0,719

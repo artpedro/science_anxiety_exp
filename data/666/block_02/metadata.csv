@@ -1,0 +1,22 @@
+question,subject,response,expected_answer,score
+blk02_q01_1025_low_complexity_conheciemnto geral_true,control,-1,1,0
+blk02_q02_1163_low_complexity_conheciemnto geral_false,control,1,0,0
+blk02_q03_409_control_false,control,1,0,0
+blk02_q04_1061_low_complexity_conheciemnto geral_true,control,1,1,1
+blk02_q05_443_control_false,control,0,0,1
+blk02_q06_538_control_false,control,1,0,0
+blk02_q07_276_control_true,control,1,1,1
+blk02_q08_1149_low_complexity_conheciemnto geral_false,control,-1,0,0
+blk02_q09_501_control_false,control,-1,0,0
+blk02_q10_1002_low_complexity_conheciemnto geral_true,control,1,1,1
+blk02_q11_263_control_true,control,1,1,1
+blk02_q12_384_control_true,control,1,1,1
+blk02_q13_351_control_true,control,1,1,1
+blk02_q14_494_control_false,control,1,0,0
+blk02_q15_399_control_false,control,1,0,0
+blk02_q16_962_low_complexity_conheciemnto geral_true,control,1,1,1
+blk02_q17_1135_low_complexity_conheciemnto geral_false,control,1,0,0
+blk02_q18_1129_low_complexity_conheciemnto geral_false,control,1,0,0
+blk02_q19_306_control_true,control,1,1,1
+blk02_q20_1024_low_complexity_conheciemnto geral_true,control,-1,1,0
+blk02_q21_1072_low_complexity_conheciemnto geral_true,control,-1,1,0

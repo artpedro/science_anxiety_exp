@@ -1,0 +1,13 @@
+question,subject,response,expected_answer,score
+blk01_q01_193_high_complexity_biology_0,biology,1,0,0
+blk01_q02_147_high_complexity_chemistry_0,chemistry,1,0,0
+blk01_q03_083_high_complexity_physics_true,physics,-1,1,0
+blk01_q04_186_high_complexity_biology_0,biology,-1,0,0
+blk01_q05_154_high_complexity_chemistry_0,chemistry,-1,0,0
+blk01_q06_088_high_complexity_physics_true,physics,-1,1,0
+blk01_q07_176_high_complexity_biology_1,biology,-1,1,0
+blk01_q08_039_high_complexity_chemistry_false,chemistry,-1,0,0
+blk01_q09_101_high_complexity_physics_false,physics,-1,0,0
+blk01_q10_074_high_complexity_biology_false,biology,-1,0,0
+blk01_q11_156_high_complexity_chemistry_0,chemistry,-1,0,0
+blk01_q12_094_high_complexity_physics_true,physics,-1,1,0
