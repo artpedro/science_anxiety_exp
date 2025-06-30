@@ -1,6 +1,3 @@
-# blocks.py
-
-
 import os
 import shutil
 import pandas as pd
@@ -58,6 +55,7 @@ def run_blocks(subject_id):
     # ── 2) PsychoPy setup ───────────────────────────────────────────────────────────
     # PsychoPy window
     win = visual.Window(
+        screen=cfg.SCREEN,           # <— select the monitor here
         size=cfg.WINDOW_SIZE,
         fullscr=cfg.FULLSCREEN,
         color=cfg.WINDOW_COLOR,

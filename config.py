@@ -1,6 +1,8 @@
 from pathlib import Path
 
 class Config:
+    SCREEN = 1
+
     # ── Timing parameters (seconds) ─────────────────────────────
     PRE_QUESTION_WAIT      = 0.5
     NOISE_TO_QUESTION_WAIT = 0.5
@@ -20,7 +22,7 @@ class Config:
     WRONG_AUDIO           = SOUND_DIR / "wrong.wav"
 
     # ── Display settings ───────────────────────────────────────
-    FULLSCREEN            = False
+    FULLSCREEN            = True
     WINDOW_SIZE           = (900, 500)
     WINDOW_COLOR          = "gray"           # gray background for cross
 
