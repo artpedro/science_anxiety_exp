@@ -44,8 +44,8 @@ def run_blocks(subject_id):
     # ── Then proceed with PsychoPy setup & SPACE prompt ─────────
     # ── 1) Load question pools & prepare 4 blocks ─────────────────────────────────
     sci_base     =  os.path.join("data","science_questions")
-    control_qs, high_qs, low_qs = load_science_questions()
-    blocks       = prepare_all_blocks(control_qs, high_qs, low_qs, min_duration=180.0)
+    control_qs1, control_qs2 , high_qs, low_qs = load_science_questions()
+    blocks       = prepare_all_blocks(control_qs1, control_qs2, high_qs, low_qs, min_duration=360.0)
 
     # Diagnostic: show chosen block order
     print("\n" + "#"*80)
@@ -87,7 +87,7 @@ def run_blocks(subject_id):
     for blk_idx, block in enumerate(blocks, start=1):
         
         # Prepare block folder and metadata container
-        block_folder    = os.path.join('data',subject_id,f"block_{blk_idx:02d}")
+        block_folder    = os.path.join('data','participant',subject_id,f"block_{blk_idx:02d}")
         os.makedirs(block_folder, exist_ok=True)
         
         # List to accumulate metadata rows for this block

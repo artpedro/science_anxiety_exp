@@ -19,10 +19,10 @@ def load_science_questions(base_dir='science'):
       - high_qs: dict of subject->list of {path, answer, duration, subject}
       - low_qs: same as high_qs
     """
-    if base_dir == 'science':
-        base = os.path.join('data', 'science_questions')
+    if base_dir == 'math':
+        base = os.path.join('data', 'math_questions')
     else:
-        base = base_dir  # in case base_dir is a custom path
+        base = os.path.join('data', 'science_questions')  # in case base_dir is a custom path
 
     control_qs = []
 
@@ -45,24 +45,38 @@ def load_science_questions(base_dir='science'):
                 "duration": get_wav_duration(wav_path),
                 "subject": "control"
             })
-
     random.shuffle(control_qs)
 
-    # High and low complexity questions
-    for complexity_label, pool in (("high_complexity", high_qs), ("low_complexity", low_qs)):
-        for subj in subjects:
+    control_qs1 = control_qs[:len(control_qs)//2]
+    control_qs2 = control_qs[len(control_qs)//2:]
+
+    if base_dir == 'science':
+        # High and low complexity questions
+        for complexity_label, pool in (("high_complexity", high_qs), ("low_complexity", low_qs)):
+            for subj in subjects:
+                for ans in ("false", "true"):
+                    folder = os.path.join(base, complexity_label, subj, ans)
+                    for wav_path in glob.glob(os.path.join(folder, "*.wav")):
+                        pool[subj].append({
+                            "path": wav_path,
+                            "answer": 1 if ans == "true" else 0,
+                            "duration": get_wav_duration(wav_path),
+                            "subject": subj
+                        })
+                random.shuffle(pool[subj])
+    else:
+        for complexity_label, pool in (("high_complexity", high_qs), ("low_complexity", low_qs)):
             for ans in ("false", "true"):
-                folder = os.path.join(base, complexity_label, subj, ans)
+                folder = os.path.join(base, complexity_label, ans)
                 for wav_path in glob.glob(os.path.join(folder, "*.wav")):
-                    pool[subj].append({
+                    pool['math'].append({
                         "path": wav_path,
                         "answer": 1 if ans == "true" else 0,
-                        "duration": get_wav_duration(wav_path),
-                        "subject": subj
+                        "duration": get_wav_duration(wav_path)
                     })
-            random.shuffle(pool[subj])
+            random.shuffle(pool['math'])
 
-    return control_qs, high_qs, low_qs
+    return control_qs1,control_qs2, high_qs, low_qs
 
 
 def generate_control_block(control_qs: List[Dict], min_duration: float = 360.0) -> List[Dict]:
@@ -125,7 +139,8 @@ def generate_complexity_block(
 
 
 def prepare_all_blocks(
-    control_qs: List[Dict],
+    control_qs1: List[Dict],
+    control_qs2: List[Dict],
     high_qs: Dict[str, List[Dict]],
     low_qs: Dict[str, List[Dict]],
     min_duration: float = 360.0
@@ -136,18 +151,28 @@ def prepare_all_blocks(
       or Low → Control → High → Control
     """
     configs = [
-        ['high_complexity', 'control', 'low_complexity', 'control'],
-        ['low_complexity', 'control', 'high_complexity', 'control'],
+        ['high_complexity', 'control1', 'low_complexity', 'control2'],
+        ['low_complexity', 'control1', 'high_complexity', 'control2'],
     ]
     sequence = random.choice(configs)
 
     blocks = []
     for btype in sequence:
-        if btype == 'control':
-            qs = generate_control_block(control_qs, min_duration)
+        if btype == 'control1':
+            qs = generate_control_block(control_qs1, min_duration)
+        elif btype == 'control2':
+            qs = generate_control_block(control_qs2, min_duration)
         elif btype == 'high_complexity':
             qs = generate_complexity_block(high_qs, min_duration)
         else:
             qs = generate_complexity_block(low_qs, min_duration)
         blocks.append({'type': btype, 'questions': qs})
     return blocks
+
+def prepare_test_block(min_duration):
+    control_qs1,_, _, _ = load_science_questions('math')
+    qs = generate_control_block(control_qs1, min_duration)
+    return [{'type': 'control1', 'questions':qs}]
+
+
+    
