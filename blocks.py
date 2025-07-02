@@ -160,14 +160,18 @@ def run_blocks(subject_id):
 
             # ── 6d) Check end‐of‐block criteria ─────────────────────────────
             # Must have at least 360 s of audio...
-            if total_audio >= 180.0:
+            if total_audio >= 360.0:
                 if block['type'] == 'control':
+                    core.wait(2.5)
+                    play_audio(str(cfg.END_BLOCK_AUDIO))
                     break
                 # Complexity blocks need equal counts and at least one of each
                 counts = [answer_counts[s] for s in ('biology','chemistry','physics')]
                 if min(counts) > 0 and len(set(counts)) == 1:
+                    core.wait(2.5)
+                    play_audio(str(cfg.END_BLOCK_AUDIO))
                     break
-        core.wait(5)
+        core.wait(2.5)
 
         # ── 7) End of block: write metadata, stop collector, send marker ─────
         metadata_path = os.path.join(block_folder,"metadata.csv")
