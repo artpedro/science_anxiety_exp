@@ -127,10 +127,10 @@ def run_blocks(subject_id):
             response = None
             clk      = core.Clock()
             while clk.getTime() < 10.0:
-                keys = event.getKeys(keyList=['left','right'])
+                keys = event.getKeys(keyList=['lshift','rshift'])
                 if keys:
                     key = keys[0]
-                    response = 1 if key == 'right' else 0
+                    response = 1 if key == 'rshift' else 0
                     total_audio += clk.getTime()
                     send_marker(f"{tag}_answered_{response}", outlet)
                     break
